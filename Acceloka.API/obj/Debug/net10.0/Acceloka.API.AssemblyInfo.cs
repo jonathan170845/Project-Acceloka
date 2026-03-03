@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Acceloka.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7c5c073a0c9e6609d81e2d1cb3f51fc6fa41f92b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+698f56731d1017f67a42dcf3969cf2d9d598b3f9")]
 [assembly: System.Reflection.AssemblyProductAttribute("Acceloka.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Acceloka.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
