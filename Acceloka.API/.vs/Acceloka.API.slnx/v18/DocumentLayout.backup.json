@@ -1,0 +1,227 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\BINUS_CODING\\Magang\\Project Acceloka\\Acceloka.API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5FB3BB95-4E9E-4187-7835-FC8860BC8EFD}|Acceloka.API.csproj|d:\\binus_coding\\magang\\project acceloka\\acceloka.api\\features\\tickets\\commands\\bookticketresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FB3BB95-4E9E-4187-7835-FC8860BC8EFD}|Acceloka.API.csproj|solutionrelative:features\\tickets\\commands\\bookticketresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FB3BB95-4E9E-4187-7835-FC8860BC8EFD}|Acceloka.API.csproj|d:\\binus_coding\\magang\\project acceloka\\acceloka.api\\features\\tickets\\commands\\booktickethandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FB3BB95-4E9E-4187-7835-FC8860BC8EFD}|Acceloka.API.csproj|solutionrelative:features\\tickets\\commands\\booktickethandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FB3BB95-4E9E-4187-7835-FC8860BC8EFD}|Acceloka.API.csproj|d:\\binus_coding\\magang\\project acceloka\\acceloka.api\\features\\tickets\\commands\\editbookedtickethandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FB3BB95-4E9E-4187-7835-FC8860BC8EFD}|Acceloka.API.csproj|solutionrelative:features\\tickets\\commands\\editbookedtickethandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FB3BB95-4E9E-4187-7835-FC8860BC8EFD}|Acceloka.API.csproj|d:\\binus_coding\\magang\\project acceloka\\acceloka.api\\features\\tickets\\commands\\revoketickethandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FB3BB95-4E9E-4187-7835-FC8860BC8EFD}|Acceloka.API.csproj|solutionrelative:features\\tickets\\commands\\revoketickethandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FB3BB95-4E9E-4187-7835-FC8860BC8EFD}|Acceloka.API.csproj|d:\\binus_coding\\magang\\project acceloka\\acceloka.api\\features\\tickets\\queries\\availableticketshandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FB3BB95-4E9E-4187-7835-FC8860BC8EFD}|Acceloka.API.csproj|solutionrelative:features\\tickets\\queries\\availableticketshandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FB3BB95-4E9E-4187-7835-FC8860BC8EFD}|Acceloka.API.csproj|d:\\binus_coding\\magang\\project acceloka\\acceloka.api\\features\\tickets\\queries\\availableticketsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FB3BB95-4E9E-4187-7835-FC8860BC8EFD}|Acceloka.API.csproj|solutionrelative:features\\tickets\\queries\\availableticketsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FB3BB95-4E9E-4187-7835-FC8860BC8EFD}|Acceloka.API.csproj|d:\\binus_coding\\magang\\project acceloka\\acceloka.api\\features\\tickets\\queries\\availableticketsresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FB3BB95-4E9E-4187-7835-FC8860BC8EFD}|Acceloka.API.csproj|solutionrelative:features\\tickets\\queries\\availableticketsresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FB3BB95-4E9E-4187-7835-FC8860BC8EFD}|Acceloka.API.csproj|d:\\binus_coding\\magang\\project acceloka\\acceloka.api\\features\\tickets\\commands\\revoketicketcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FB3BB95-4E9E-4187-7835-FC8860BC8EFD}|Acceloka.API.csproj|solutionrelative:features\\tickets\\commands\\revoketicketcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FB3BB95-4E9E-4187-7835-FC8860BC8EFD}|Acceloka.API.csproj|d:\\binus_coding\\magang\\project acceloka\\acceloka.api\\features\\tickets\\commands\\revoketicketresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FB3BB95-4E9E-4187-7835-FC8860BC8EFD}|Acceloka.API.csproj|solutionrelative:features\\tickets\\commands\\revoketicketresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FB3BB95-4E9E-4187-7835-FC8860BC8EFD}|Acceloka.API.csproj|d:\\binus_coding\\magang\\project acceloka\\acceloka.api\\controllers\\ticketscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FB3BB95-4E9E-4187-7835-FC8860BC8EFD}|Acceloka.API.csproj|solutionrelative:controllers\\ticketscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FB3BB95-4E9E-4187-7835-FC8860BC8EFD}|Acceloka.API.csproj|d:\\binus_coding\\magang\\project acceloka\\acceloka.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FB3BB95-4E9E-4187-7835-FC8860BC8EFD}|Acceloka.API.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FB3BB95-4E9E-4187-7835-FC8860BC8EFD}|Acceloka.API.csproj|d:\\binus_coding\\magang\\project acceloka\\acceloka.api\\domain\\entities\\bookedticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FB3BB95-4E9E-4187-7835-FC8860BC8EFD}|Acceloka.API.csproj|solutionrelative:domain\\entities\\bookedticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BookTicketResponse.cs",
+              "DocumentMoniker": "D:\\BINUS_CODING\\Magang\\Project Acceloka\\Acceloka.API\\Features\\Tickets\\Commands\\BookTicketResponse.cs",
+              "RelativeDocumentMoniker": "Features\\Tickets\\Commands\\BookTicketResponse.cs",
+              "ToolTip": "D:\\BINUS_CODING\\Magang\\Project Acceloka\\Acceloka.API\\Features\\Tickets\\Commands\\BookTicketResponse.cs",
+              "RelativeToolTip": "Features\\Tickets\\Commands\\BookTicketResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-02T05:08:37.351Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BookTicketHandler.cs",
+              "DocumentMoniker": "D:\\BINUS_CODING\\Magang\\Project Acceloka\\Acceloka.API\\Features\\Tickets\\Commands\\BookTicketHandler.cs",
+              "RelativeDocumentMoniker": "Features\\Tickets\\Commands\\BookTicketHandler.cs",
+              "ToolTip": "D:\\BINUS_CODING\\Magang\\Project Acceloka\\Acceloka.API\\Features\\Tickets\\Commands\\BookTicketHandler.cs",
+              "RelativeToolTip": "Features\\Tickets\\Commands\\BookTicketHandler.cs",
+              "ViewState": "AgIAAFwAAAAAAAAAAAAqwGgAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-02T05:06:31.274Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EditBookedTicketHandler.cs",
+              "DocumentMoniker": "D:\\BINUS_CODING\\Magang\\Project Acceloka\\Acceloka.API\\Features\\Tickets\\Commands\\EditBookedTicketHandler.cs",
+              "RelativeDocumentMoniker": "Features\\Tickets\\Commands\\EditBookedTicketHandler.cs",
+              "ToolTip": "D:\\BINUS_CODING\\Magang\\Project Acceloka\\Acceloka.API\\Features\\Tickets\\Commands\\EditBookedTicketHandler.cs",
+              "RelativeToolTip": "Features\\Tickets\\Commands\\EditBookedTicketHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-02T04:57:10.691Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RevokeTicketCommand.cs",
+              "DocumentMoniker": "D:\\BINUS_CODING\\Magang\\Project Acceloka\\Acceloka.API\\Features\\Tickets\\Commands\\RevokeTicketCommand.cs",
+              "RelativeDocumentMoniker": "Features\\Tickets\\Commands\\RevokeTicketCommand.cs",
+              "ToolTip": "D:\\BINUS_CODING\\Magang\\Project Acceloka\\Acceloka.API\\Features\\Tickets\\Commands\\RevokeTicketCommand.cs",
+              "RelativeToolTip": "Features\\Tickets\\Commands\\RevokeTicketCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-02T04:33:26.803Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AvailableTicketsResponse.cs",
+              "DocumentMoniker": "D:\\BINUS_CODING\\Magang\\Project Acceloka\\Acceloka.API\\Features\\Tickets\\Queries\\AvailableTicketsResponse.cs",
+              "RelativeDocumentMoniker": "Features\\Tickets\\Queries\\AvailableTicketsResponse.cs",
+              "ToolTip": "D:\\BINUS_CODING\\Magang\\Project Acceloka\\Acceloka.API\\Features\\Tickets\\Queries\\AvailableTicketsResponse.cs",
+              "RelativeToolTip": "Features\\Tickets\\Queries\\AvailableTicketsResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T03:20:06.311Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AvailableTicketsQuery.cs",
+              "DocumentMoniker": "D:\\BINUS_CODING\\Magang\\Project Acceloka\\Acceloka.API\\Features\\Tickets\\Queries\\AvailableTicketsQuery.cs",
+              "RelativeDocumentMoniker": "Features\\Tickets\\Queries\\AvailableTicketsQuery.cs",
+              "ToolTip": "D:\\BINUS_CODING\\Magang\\Project Acceloka\\Acceloka.API\\Features\\Tickets\\Queries\\AvailableTicketsQuery.cs",
+              "RelativeToolTip": "Features\\Tickets\\Queries\\AvailableTicketsQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T03:20:05.007Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AvailableTicketsHandler.cs",
+              "DocumentMoniker": "D:\\BINUS_CODING\\Magang\\Project Acceloka\\Acceloka.API\\Features\\Tickets\\Queries\\AvailableTicketsHandler.cs",
+              "RelativeDocumentMoniker": "Features\\Tickets\\Queries\\AvailableTicketsHandler.cs",
+              "ToolTip": "D:\\BINUS_CODING\\Magang\\Project Acceloka\\Acceloka.API\\Features\\Tickets\\Queries\\AvailableTicketsHandler.cs",
+              "RelativeToolTip": "Features\\Tickets\\Queries\\AvailableTicketsHandler.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAqwB8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-26T07:40:00.59Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RevokeTicketHandler.cs",
+              "DocumentMoniker": "D:\\BINUS_CODING\\Magang\\Project Acceloka\\Acceloka.API\\Features\\Tickets\\Commands\\RevokeTicketHandler.cs",
+              "RelativeDocumentMoniker": "Features\\Tickets\\Commands\\RevokeTicketHandler.cs",
+              "ToolTip": "D:\\BINUS_CODING\\Magang\\Project Acceloka\\Acceloka.API\\Features\\Tickets\\Commands\\RevokeTicketHandler.cs",
+              "RelativeToolTip": "Features\\Tickets\\Commands\\RevokeTicketHandler.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAqwDoAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-26T04:21:13.325Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RevokeTicketResponse.cs",
+              "DocumentMoniker": "D:\\BINUS_CODING\\Magang\\Project Acceloka\\Acceloka.API\\Features\\Tickets\\Commands\\RevokeTicketResponse.cs",
+              "RelativeDocumentMoniker": "Features\\Tickets\\Commands\\RevokeTicketResponse.cs",
+              "ToolTip": "D:\\BINUS_CODING\\Magang\\Project Acceloka\\Acceloka.API\\Features\\Tickets\\Commands\\RevokeTicketResponse.cs",
+              "RelativeToolTip": "Features\\Tickets\\Commands\\RevokeTicketResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-02T04:33:28.59Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "TicketsController.cs",
+              "DocumentMoniker": "D:\\BINUS_CODING\\Magang\\Project Acceloka\\Acceloka.API\\Controllers\\TicketsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TicketsController.cs",
+              "ToolTip": "D:\\BINUS_CODING\\Magang\\Project Acceloka\\Acceloka.API\\Controllers\\TicketsController.cs",
+              "RelativeToolTip": "Controllers\\TicketsController.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAiwDcAAABcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-26T04:21:19.427Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\BINUS_CODING\\Magang\\Project Acceloka\\Acceloka.API\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\BINUS_CODING\\Magang\\Project Acceloka\\Acceloka.API\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAADkAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-26T02:47:26.801Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "BookedTicket.cs",
+              "DocumentMoniker": "D:\\BINUS_CODING\\Magang\\Project Acceloka\\Acceloka.API\\Domain\\Entities\\BookedTicket.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\BookedTicket.cs",
+              "ToolTip": "D:\\BINUS_CODING\\Magang\\Project Acceloka\\Acceloka.API\\Domain\\Entities\\BookedTicket.cs",
+              "RelativeToolTip": "Domain\\Entities\\BookedTicket.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-25T02:14:52.766Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

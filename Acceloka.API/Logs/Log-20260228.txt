@@ -1,0 +1,952 @@
+2026-02-28 09:13:01.981 +07:00 [INF] Now listening on: http://localhost:5209
+2026-02-28 09:13:02.105 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-02-28 09:13:02.106 +07:00 [INF] Hosting environment: Development
+2026-02-28 09:13:02.106 +07:00 [INF] Content root path: D:\BINUS_CODING\Magang\Project Acceloka\Acceloka.API
+2026-02-28 09:13:03.275 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5209/ - null null
+2026-02-28 09:13:04.111 +07:00 [WRN] Failed to determine the https port for redirect.
+2026-02-28 09:13:04.180 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5209/ - 404 null null 923.457ms
+2026-02-28 09:13:04.183 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5209/, Response status code: 404
+2026-02-28 09:13:08.135 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger/index.html - null null
+2026-02-28 09:13:08.249 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger/index.html - 304 null null 114.0531ms
+2026-02-28 09:13:08.266 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger/index.css - null null
+2026-02-28 09:13:08.266 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger/swagger-ui.css - null null
+2026-02-28 09:13:08.268 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger/swagger-ui-bundle.js - null null
+2026-02-28 09:13:08.323 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger/swagger-ui-bundle.js - 304 null null 54.106ms
+2026-02-28 09:13:08.323 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger/swagger-ui.css - 304 null null 56.324ms
+2026-02-28 09:13:08.323 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger/index.css - 304 null null 56.5535ms
+2026-02-28 09:13:08.329 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger/swagger-ui-standalone-preset.js - null null
+2026-02-28 09:13:08.341 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger/index.js - null null
+2026-02-28 09:13:08.342 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger/index.js - 304 null null 1.2936ms
+2026-02-28 09:13:08.343 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger/swagger-ui-standalone-preset.js - 304 null null 13.838ms
+2026-02-28 09:13:08.344 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5209/_framework/aspnetcore-browser-refresh.js - null null
+2026-02-28 09:13:08.348 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5209/_framework/aspnetcore-browser-refresh.js - 200 16509 application/javascript; charset=utf-8 3.8997ms
+2026-02-28 09:13:08.422 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5209/_vs/browserLink - null null
+2026-02-28 09:13:08.540 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5209/_vs/browserLink - 200 null text/javascript; charset=UTF-8 117.5566ms
+2026-02-28 09:13:09.210 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger/v1/swagger.json - null null
+2026-02-28 09:13:09.226 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 16.7209ms
+2026-02-28 09:20:27.957 +07:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5209/api/v1/book-ticket - null null
+2026-02-28 09:20:27.963 +07:00 [INF] CORS policy execution successful.
+2026-02-28 09:20:27.965 +07:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5209/api/v1/book-ticket - 204 null null 7.9044ms
+2026-02-28 09:20:27.968 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:5209/api/v1/book-ticket - application/json 50
+2026-02-28 09:20:27.969 +07:00 [INF] CORS policy execution successful.
+2026-02-28 09:20:27.970 +07:00 [INF] CORS policy execution successful.
+2026-02-28 09:20:27.971 +07:00 [INF] Executing endpoint 'Acceloka.API.Controllers.TicketsController.BookTicket (Acceloka.API)'
+2026-02-28 09:20:28.032 +07:00 [INF] Route matched with {action = "BookTicket", controller = "Tickets"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] BookTicket(Acceloka.API.Features.Tickets.Commands.BookTicketCommand) on controller Acceloka.API.Controllers.TicketsController (Acceloka.API).
+2026-02-28 09:20:28.042 +07:00 [WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2026-02-28 09:20:29.628 +07:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Ticket'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-02-28 09:20:31.307 +07:00 [INF] Executed DbCommand (233ms) [Parameters=[@item_TicketCode='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [t].[Id], [t].[CategoryName], [t].[CreatedAt], [t].[EventDate], [t].[IsActive], [t].[Price], [t].[Quota], [t].[TicketCode], [t].[TicketName]
+FROM [Tickets] AS [t]
+WHERE [t].[TicketCode] = @item_TicketCode
+2026-02-28 09:20:31.756 +07:00 [INF] Executed DbCommand (29ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = DateTime2), @p2='?' (Size = 4000), @p4='?' (DbType = Int32), @p3='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [BookedTickets] ([BookingDate], [CreatedAt], [Status])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2);
+UPDATE [Tickets] SET [Quota] = @p3
+OUTPUT 1
+WHERE [Id] = @p4;
+2026-02-28 09:20:31.813 +07:00 [INF] Executed DbCommand (13ms) [Parameters=[@p5='?' (DbType = Int32), @p6='?' (DbType = Int32), @p7='?' (Size = 450), @p8='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [BookedTicketsDetail] ([BookedTicketId], [Quantity], [TicketCode], [UpdatedAt])
+OUTPUT INSERTED.[Id]
+VALUES (@p5, @p6, @p7, @p8);
+2026-02-28 09:20:31.840 +07:00 [INF] Executing OkObjectResult, writing value of type 'Acceloka.API.Features.Tickets.Commands.BookTicketResponse'.
+2026-02-28 09:20:31.856 +07:00 [INF] Executed action Acceloka.API.Controllers.TicketsController.BookTicket (Acceloka.API) in 3818.5132ms
+2026-02-28 09:20:31.856 +07:00 [INF] Executed endpoint 'Acceloka.API.Controllers.TicketsController.BookTicket (Acceloka.API)'
+2026-02-28 09:20:31.865 +07:00 [INF] Request finished HTTP/1.1 POST http://localhost:5209/api/v1/book-ticket - 200 null application/json; charset=utf-8 3897.1948ms
+2026-02-28 09:21:49.423 +07:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5209/api/v1/revoke-ticket/1004/BIO001/15 - null null
+2026-02-28 09:21:49.425 +07:00 [INF] CORS policy execution successful.
+2026-02-28 09:21:49.426 +07:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5209/api/v1/revoke-ticket/1004/BIO001/15 - 204 null null 2.7777ms
+2026-02-28 09:21:49.429 +07:00 [INF] Request starting HTTP/1.1 DELETE http://localhost:5209/api/v1/revoke-ticket/1004/BIO001/15 - null null
+2026-02-28 09:21:49.429 +07:00 [INF] CORS policy execution successful.
+2026-02-28 09:21:49.429 +07:00 [INF] CORS policy execution successful.
+2026-02-28 09:21:49.429 +07:00 [INF] Executing endpoint 'Acceloka.API.Controllers.TicketsController.Revoke (Acceloka.API)'
+2026-02-28 09:21:49.440 +07:00 [INF] Route matched with {action = "Revoke", controller = "Tickets"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Revoke(Int32, System.String, Int32) on controller Acceloka.API.Controllers.TicketsController (Acceloka.API).
+2026-02-28 09:21:49.555 +07:00 [INF] Executed DbCommand (12ms) [Parameters=[@request_BookedTicketId='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [b].[Id], [b].[BookingDate], [b].[CreatedAt], [b].[Status]
+FROM [BookedTickets] AS [b]
+WHERE [b].[Id] = @request_BookedTicketId
+2026-02-28 09:21:49.578 +07:00 [INF] Executed DbCommand (8ms) [Parameters=[@request_BookedTicketId='?' (DbType = Int32), @request_TicketCode='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [b].[Id], [b].[BookedTicketId], [b].[Quantity], [b].[TicketCode], [b].[UpdatedAt]
+FROM [BookedTicketsDetail] AS [b]
+WHERE [b].[BookedTicketId] = @request_BookedTicketId AND [b].[TicketCode] = @request_TicketCode
+2026-02-28 09:21:50.185 +07:00 [INF] Executed action Acceloka.API.Controllers.TicketsController.Revoke (Acceloka.API) in 745.1051ms
+2026-02-28 09:21:50.187 +07:00 [INF] Executed endpoint 'Acceloka.API.Controllers.TicketsController.Revoke (Acceloka.API)'
+2026-02-28 09:21:50.344 +07:00 [INF] Request finished HTTP/1.1 DELETE http://localhost:5209/api/v1/revoke-ticket/1004/BIO001/15 - 400 null application/problem+json 915.7564ms
+2026-02-28 09:21:52.920 +07:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5209/api/v1/revoke-ticket/1004/BIO001/5 - null null
+2026-02-28 09:21:52.921 +07:00 [INF] CORS policy execution successful.
+2026-02-28 09:21:52.921 +07:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5209/api/v1/revoke-ticket/1004/BIO001/5 - 204 null null 0.9352ms
+2026-02-28 09:21:52.924 +07:00 [INF] Request starting HTTP/1.1 DELETE http://localhost:5209/api/v1/revoke-ticket/1004/BIO001/5 - null null
+2026-02-28 09:21:52.925 +07:00 [INF] CORS policy execution successful.
+2026-02-28 09:21:52.925 +07:00 [INF] CORS policy execution successful.
+2026-02-28 09:21:52.925 +07:00 [INF] Executing endpoint 'Acceloka.API.Controllers.TicketsController.Revoke (Acceloka.API)'
+2026-02-28 09:21:52.925 +07:00 [INF] Route matched with {action = "Revoke", controller = "Tickets"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Revoke(Int32, System.String, Int32) on controller Acceloka.API.Controllers.TicketsController (Acceloka.API).
+2026-02-28 09:21:52.958 +07:00 [INF] Executed DbCommand (7ms) [Parameters=[@request_BookedTicketId='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [b].[Id], [b].[BookingDate], [b].[CreatedAt], [b].[Status]
+FROM [BookedTickets] AS [b]
+WHERE [b].[Id] = @request_BookedTicketId
+2026-02-28 09:21:52.964 +07:00 [INF] Executed DbCommand (5ms) [Parameters=[@request_BookedTicketId='?' (DbType = Int32), @request_TicketCode='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [b].[Id], [b].[BookedTicketId], [b].[Quantity], [b].[TicketCode], [b].[UpdatedAt]
+FROM [BookedTicketsDetail] AS [b]
+WHERE [b].[BookedTicketId] = @request_BookedTicketId AND [b].[TicketCode] = @request_TicketCode
+2026-02-28 09:21:52.985 +07:00 [INF] Executed DbCommand (10ms) [Parameters=[@request_TicketCode='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [t].[Id], [t].[CategoryName], [t].[CreatedAt], [t].[EventDate], [t].[IsActive], [t].[Price], [t].[Quota], [t].[TicketCode], [t].[TicketName]
+FROM [Tickets] AS [t]
+WHERE [t].[TicketCode] = @request_TicketCode
+2026-02-28 09:21:53.040 +07:00 [INF] Executed DbCommand (9ms) [Parameters=[@request_BookedTicketId='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [BookedTicketsDetail] AS [b]
+        WHERE [b].[BookedTicketId] = @request_BookedTicketId) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2026-02-28 09:21:53.066 +07:00 [INF] Executed DbCommand (13ms) [Parameters=[@p0='?' (DbType = Int32), @p2='?' (DbType = Int32), @p1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+DELETE FROM [BookedTicketsDetail]
+OUTPUT 1
+WHERE [Id] = @p0;
+UPDATE [Tickets] SET [Quota] = @p1
+OUTPUT 1
+WHERE [Id] = @p2;
+2026-02-28 09:21:53.076 +07:00 [INF] Executing OkObjectResult, writing value of type 'Acceloka.API.Features.Tickets.Commands.RevokeTicketResponse'.
+2026-02-28 09:21:53.079 +07:00 [INF] Executed action Acceloka.API.Controllers.TicketsController.Revoke (Acceloka.API) in 153.1662ms
+2026-02-28 09:21:53.079 +07:00 [INF] Executed endpoint 'Acceloka.API.Controllers.TicketsController.Revoke (Acceloka.API)'
+2026-02-28 09:21:53.079 +07:00 [INF] Request finished HTTP/1.1 DELETE http://localhost:5209/api/v1/revoke-ticket/1004/BIO001/5 - 200 null application/json; charset=utf-8 154.7104ms
+2026-02-28 09:21:55.284 +07:00 [INF] Request starting HTTP/1.1 DELETE http://localhost:5209/api/v1/revoke-ticket/1004/BIO001/5 - null null
+2026-02-28 09:21:55.284 +07:00 [INF] CORS policy execution successful.
+2026-02-28 09:21:55.284 +07:00 [INF] CORS policy execution successful.
+2026-02-28 09:21:55.284 +07:00 [INF] Executing endpoint 'Acceloka.API.Controllers.TicketsController.Revoke (Acceloka.API)'
+2026-02-28 09:21:55.284 +07:00 [INF] Route matched with {action = "Revoke", controller = "Tickets"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Revoke(Int32, System.String, Int32) on controller Acceloka.API.Controllers.TicketsController (Acceloka.API).
+2026-02-28 09:21:55.296 +07:00 [INF] Executed DbCommand (7ms) [Parameters=[@request_BookedTicketId='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [b].[Id], [b].[BookingDate], [b].[CreatedAt], [b].[Status]
+FROM [BookedTickets] AS [b]
+WHERE [b].[Id] = @request_BookedTicketId
+2026-02-28 09:21:55.301 +07:00 [INF] Executed DbCommand (5ms) [Parameters=[@request_BookedTicketId='?' (DbType = Int32), @request_TicketCode='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [b].[Id], [b].[BookedTicketId], [b].[Quantity], [b].[TicketCode], [b].[UpdatedAt]
+FROM [BookedTicketsDetail] AS [b]
+WHERE [b].[BookedTicketId] = @request_BookedTicketId AND [b].[TicketCode] = @request_TicketCode
+2026-02-28 09:21:55.578 +07:00 [INF] Executed action Acceloka.API.Controllers.TicketsController.Revoke (Acceloka.API) in 293.8452ms
+2026-02-28 09:21:55.579 +07:00 [INF] Executed endpoint 'Acceloka.API.Controllers.TicketsController.Revoke (Acceloka.API)'
+2026-02-28 09:21:55.716 +07:00 [INF] Request finished HTTP/1.1 DELETE http://localhost:5209/api/v1/revoke-ticket/1004/BIO001/5 - 400 null application/problem+json 431.7747ms
+2026-02-28 09:22:34.469 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5209/api/v1/get-booked-ticket/1004 - null null
+2026-02-28 09:22:34.469 +07:00 [INF] CORS policy execution successful.
+2026-02-28 09:22:34.469 +07:00 [INF] CORS policy execution successful.
+2026-02-28 09:22:34.469 +07:00 [INF] Executing endpoint 'Acceloka.API.Controllers.TicketsController.GetBookedTicketDetail (Acceloka.API)'
+2026-02-28 09:22:34.477 +07:00 [INF] Route matched with {action = "GetBookedTicketDetail", controller = "Tickets"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetBookedTicketDetail(Int32) on controller Acceloka.API.Controllers.TicketsController (Acceloka.API).
+2026-02-28 09:22:34.484 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[@request_BookedTicketId='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [b].[Id], [b].[BookingDate], [b].[CreatedAt], [b].[Status]
+FROM [BookedTickets] AS [b]
+WHERE [b].[Id] = @request_BookedTicketId
+2026-02-28 09:22:34.544 +07:00 [INF] Executed DbCommand (8ms) [Parameters=[@request_BookedTicketId='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[CategoryName], [t].[TicketCode], [t].[TicketName], [t].[EventDate], [b].[Quantity]
+FROM [BookedTicketsDetail] AS [b]
+INNER JOIN [Tickets] AS [t] ON [b].[TicketCode] = [t].[TicketCode]
+WHERE [b].[BookedTicketId] = @request_BookedTicketId
+2026-02-28 09:22:34.547 +07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Acceloka.API.Features.Tickets.Queries.BookedTicketDetailResponse, Acceloka.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-02-28 09:22:34.555 +07:00 [INF] Executed action Acceloka.API.Controllers.TicketsController.GetBookedTicketDetail (Acceloka.API) in 77.2854ms
+2026-02-28 09:22:34.555 +07:00 [INF] Executed endpoint 'Acceloka.API.Controllers.TicketsController.GetBookedTicketDetail (Acceloka.API)'
+2026-02-28 09:22:34.555 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5209/api/v1/get-booked-ticket/1004 - 200 null application/json; charset=utf-8 86.01ms
+2026-02-28 09:22:43.327 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5209/api/v1/get-booked-ticket/1003 - null null
+2026-02-28 09:22:43.327 +07:00 [INF] CORS policy execution successful.
+2026-02-28 09:22:43.328 +07:00 [INF] CORS policy execution successful.
+2026-02-28 09:22:43.328 +07:00 [INF] Executing endpoint 'Acceloka.API.Controllers.TicketsController.GetBookedTicketDetail (Acceloka.API)'
+2026-02-28 09:22:43.328 +07:00 [INF] Route matched with {action = "GetBookedTicketDetail", controller = "Tickets"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetBookedTicketDetail(Int32) on controller Acceloka.API.Controllers.TicketsController (Acceloka.API).
+2026-02-28 09:22:43.331 +07:00 [INF] Executed DbCommand (2ms) [Parameters=[@request_BookedTicketId='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [b].[Id], [b].[BookingDate], [b].[CreatedAt], [b].[Status]
+FROM [BookedTickets] AS [b]
+WHERE [b].[Id] = @request_BookedTicketId
+2026-02-28 09:22:43.334 +07:00 [INF] Executed DbCommand (2ms) [Parameters=[@request_BookedTicketId='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[CategoryName], [t].[TicketCode], [t].[TicketName], [t].[EventDate], [b].[Quantity]
+FROM [BookedTicketsDetail] AS [b]
+INNER JOIN [Tickets] AS [t] ON [b].[TicketCode] = [t].[TicketCode]
+WHERE [b].[BookedTicketId] = @request_BookedTicketId
+2026-02-28 09:22:43.336 +07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Acceloka.API.Features.Tickets.Queries.BookedTicketDetailResponse, Acceloka.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-02-28 09:22:43.340 +07:00 [INF] Executed action Acceloka.API.Controllers.TicketsController.GetBookedTicketDetail (Acceloka.API) in 12.0837ms
+2026-02-28 09:22:43.340 +07:00 [INF] Executed endpoint 'Acceloka.API.Controllers.TicketsController.GetBookedTicketDetail (Acceloka.API)'
+2026-02-28 09:22:43.340 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5209/api/v1/get-booked-ticket/1003 - 200 null application/json; charset=utf-8 13.7852ms
+2026-02-28 09:22:46.211 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5209/api/v1/get-booked-ticket/1002 - null null
+2026-02-28 09:22:46.212 +07:00 [INF] CORS policy execution successful.
+2026-02-28 09:22:46.212 +07:00 [INF] CORS policy execution successful.
+2026-02-28 09:22:46.212 +07:00 [INF] Executing endpoint 'Acceloka.API.Controllers.TicketsController.GetBookedTicketDetail (Acceloka.API)'
+2026-02-28 09:22:46.212 +07:00 [INF] Route matched with {action = "GetBookedTicketDetail", controller = "Tickets"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetBookedTicketDetail(Int32) on controller Acceloka.API.Controllers.TicketsController (Acceloka.API).
+2026-02-28 09:22:46.215 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[@request_BookedTicketId='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [b].[Id], [b].[BookingDate], [b].[CreatedAt], [b].[Status]
+FROM [BookedTickets] AS [b]
+WHERE [b].[Id] = @request_BookedTicketId
+2026-02-28 09:22:46.217 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[@request_BookedTicketId='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[CategoryName], [t].[TicketCode], [t].[TicketName], [t].[EventDate], [b].[Quantity]
+FROM [BookedTicketsDetail] AS [b]
+INNER JOIN [Tickets] AS [t] ON [b].[TicketCode] = [t].[TicketCode]
+WHERE [b].[BookedTicketId] = @request_BookedTicketId
+2026-02-28 09:22:46.218 +07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Acceloka.API.Features.Tickets.Queries.BookedTicketDetailResponse, Acceloka.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-02-28 09:22:46.219 +07:00 [INF] Executed action Acceloka.API.Controllers.TicketsController.GetBookedTicketDetail (Acceloka.API) in 6.814ms
+2026-02-28 09:22:46.219 +07:00 [INF] Executed endpoint 'Acceloka.API.Controllers.TicketsController.GetBookedTicketDetail (Acceloka.API)'
+2026-02-28 09:22:46.219 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5209/api/v1/get-booked-ticket/1002 - 200 null application/json; charset=utf-8 7.5134ms
+2026-02-28 09:39:13.980 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5209/api/v1/get-available-ticket?pageNumber=1&pageSize=10 - null null
+2026-02-28 09:39:13.982 +07:00 [INF] CORS policy execution successful.
+2026-02-28 09:39:13.982 +07:00 [INF] CORS policy execution successful.
+2026-02-28 09:39:13.982 +07:00 [INF] Executing endpoint 'Acceloka.API.Controllers.TicketsController.GetAvailableTicket (Acceloka.API)'
+2026-02-28 09:39:14.005 +07:00 [INF] Route matched with {action = "GetAvailableTicket", controller = "Tickets"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAvailableTicket(Acceloka.API.Features.Tickets.Queries.AvailableTicketsQuery) on controller Acceloka.API.Controllers.TicketsController (Acceloka.API).
+2026-02-28 09:39:14.149 +07:00 [INF] Executed DbCommand (34ms) [Parameters=[@p='?' (DbType = Int32), @p1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[CategoryName], [t].[TicketCode], [t].[TicketName], [t].[EventDate], [t].[Price], [t].[Quota] AS [RemainingQuota]
+FROM [Tickets] AS [t]
+WHERE [t].[IsActive] = CAST(1 AS bit) AND [t].[Quota] > 0
+ORDER BY [t].[TicketCode]
+OFFSET @p ROWS FETCH NEXT @p1 ROWS ONLY
+2026-02-28 09:39:14.152 +07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Acceloka.API.Features.Tickets.Queries.AvailableTicketsResponse, Acceloka.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-02-28 09:39:14.158 +07:00 [INF] Executed action Acceloka.API.Controllers.TicketsController.GetAvailableTicket (Acceloka.API) in 152.4137ms
+2026-02-28 09:39:14.158 +07:00 [INF] Executed endpoint 'Acceloka.API.Controllers.TicketsController.GetAvailableTicket (Acceloka.API)'
+2026-02-28 09:39:14.158 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5209/api/v1/get-available-ticket?pageNumber=1&pageSize=10 - 200 null application/json; charset=utf-8 177.7437ms
+2026-02-28 09:39:14.170 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5209/api/v1/get-available-ticket?pageNumber=1&pageSize=10 - null null
+2026-02-28 09:39:14.171 +07:00 [INF] CORS policy execution successful.
+2026-02-28 09:39:14.171 +07:00 [INF] CORS policy execution successful.
+2026-02-28 09:39:14.171 +07:00 [INF] Executing endpoint 'Acceloka.API.Controllers.TicketsController.GetAvailableTicket (Acceloka.API)'
+2026-02-28 09:39:14.171 +07:00 [INF] Route matched with {action = "GetAvailableTicket", controller = "Tickets"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAvailableTicket(Acceloka.API.Features.Tickets.Queries.AvailableTicketsQuery) on controller Acceloka.API.Controllers.TicketsController (Acceloka.API).
+2026-02-28 09:39:14.180 +07:00 [INF] Executed DbCommand (2ms) [Parameters=[@p='?' (DbType = Int32), @p1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[CategoryName], [t].[TicketCode], [t].[TicketName], [t].[EventDate], [t].[Price], [t].[Quota] AS [RemainingQuota]
+FROM [Tickets] AS [t]
+WHERE [t].[IsActive] = CAST(1 AS bit) AND [t].[Quota] > 0
+ORDER BY [t].[TicketCode]
+OFFSET @p ROWS FETCH NEXT @p1 ROWS ONLY
+2026-02-28 09:39:14.180 +07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Acceloka.API.Features.Tickets.Queries.AvailableTicketsResponse, Acceloka.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-02-28 09:39:14.181 +07:00 [INF] Executed action Acceloka.API.Controllers.TicketsController.GetAvailableTicket (Acceloka.API) in 9.7159ms
+2026-02-28 09:39:14.181 +07:00 [INF] Executed endpoint 'Acceloka.API.Controllers.TicketsController.GetAvailableTicket (Acceloka.API)'
+2026-02-28 09:39:14.181 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5209/api/v1/get-available-ticket?pageNumber=1&pageSize=10 - 200 null application/json; charset=utf-8 10.8566ms
+2026-02-28 09:50:06.745 +07:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5209/api/v1/book-ticket - null null
+2026-02-28 09:50:06.746 +07:00 [INF] CORS policy execution successful.
+2026-02-28 09:50:06.746 +07:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5209/api/v1/book-ticket - 204 null null 0.7587ms
+2026-02-28 09:50:06.748 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:5209/api/v1/book-ticket - application/json 88
+2026-02-28 09:50:06.748 +07:00 [INF] CORS policy execution successful.
+2026-02-28 09:50:06.748 +07:00 [INF] CORS policy execution successful.
+2026-02-28 09:50:06.748 +07:00 [INF] Executing endpoint 'Acceloka.API.Controllers.TicketsController.BookTicket (Acceloka.API)'
+2026-02-28 09:50:06.748 +07:00 [INF] Route matched with {action = "BookTicket", controller = "Tickets"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] BookTicket(Acceloka.API.Features.Tickets.Commands.BookTicketCommand) on controller Acceloka.API.Controllers.TicketsController (Acceloka.API).
+2026-02-28 09:50:06.868 +07:00 [INF] Executed DbCommand (21ms) [Parameters=[@item_TicketCode='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [t].[Id], [t].[CategoryName], [t].[CreatedAt], [t].[EventDate], [t].[IsActive], [t].[Price], [t].[Quota], [t].[TicketCode], [t].[TicketName]
+FROM [Tickets] AS [t]
+WHERE [t].[TicketCode] = @item_TicketCode
+2026-02-28 09:50:06.872 +07:00 [INF] Executed DbCommand (2ms) [Parameters=[@item_TicketCode='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [t].[Id], [t].[CategoryName], [t].[CreatedAt], [t].[EventDate], [t].[IsActive], [t].[Price], [t].[Quota], [t].[TicketCode], [t].[TicketName]
+FROM [Tickets] AS [t]
+WHERE [t].[TicketCode] = @item_TicketCode
+2026-02-28 09:50:07.248 +07:00 [INF] Executed action Acceloka.API.Controllers.TicketsController.BookTicket (Acceloka.API) in 499.3937ms
+2026-02-28 09:50:07.249 +07:00 [INF] Executed endpoint 'Acceloka.API.Controllers.TicketsController.BookTicket (Acceloka.API)'
+2026-02-28 09:50:07.406 +07:00 [INF] Request finished HTTP/1.1 POST http://localhost:5209/api/v1/book-ticket - 400 null application/problem+json 658.3578ms
+2026-02-28 09:50:10.160 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:5209/api/v1/book-ticket - application/json 87
+2026-02-28 09:50:10.160 +07:00 [INF] CORS policy execution successful.
+2026-02-28 09:50:10.160 +07:00 [INF] CORS policy execution successful.
+2026-02-28 09:50:10.160 +07:00 [INF] Executing endpoint 'Acceloka.API.Controllers.TicketsController.BookTicket (Acceloka.API)'
+2026-02-28 09:50:10.160 +07:00 [INF] Route matched with {action = "BookTicket", controller = "Tickets"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] BookTicket(Acceloka.API.Features.Tickets.Commands.BookTicketCommand) on controller Acceloka.API.Controllers.TicketsController (Acceloka.API).
+2026-02-28 09:50:10.164 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[@item_TicketCode='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [t].[Id], [t].[CategoryName], [t].[CreatedAt], [t].[EventDate], [t].[IsActive], [t].[Price], [t].[Quota], [t].[TicketCode], [t].[TicketName]
+FROM [Tickets] AS [t]
+WHERE [t].[TicketCode] = @item_TicketCode
+2026-02-28 09:50:10.165 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[@item_TicketCode='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [t].[Id], [t].[CategoryName], [t].[CreatedAt], [t].[EventDate], [t].[IsActive], [t].[Price], [t].[Quota], [t].[TicketCode], [t].[TicketName]
+FROM [Tickets] AS [t]
+WHERE [t].[TicketCode] = @item_TicketCode
+2026-02-28 09:50:10.184 +07:00 [INF] Executed DbCommand (14ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = DateTime2), @p2='?' (Size = 4000), @p4='?' (DbType = Int32), @p3='?' (DbType = Int32), @p6='?' (DbType = Int32), @p5='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [BookedTickets] ([BookingDate], [CreatedAt], [Status])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2);
+UPDATE [Tickets] SET [Quota] = @p3
+OUTPUT 1
+WHERE [Id] = @p4;
+UPDATE [Tickets] SET [Quota] = @p5
+OUTPUT 1
+WHERE [Id] = @p6;
+2026-02-28 09:50:10.242 +07:00 [INF] Executed DbCommand (52ms) [Parameters=[@p7='?' (DbType = Int32), @p8='?' (DbType = Int32), @p9='?' (Size = 450), @p10='?' (DbType = DateTime2), @p11='?' (DbType = Int32), @p12='?' (DbType = Int32), @p13='?' (Size = 450), @p14='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+MERGE [BookedTicketsDetail] USING (
+VALUES (@p7, @p8, @p9, @p10, 0),
+(@p11, @p12, @p13, @p14, 1)) AS i ([BookedTicketId], [Quantity], [TicketCode], [UpdatedAt], _Position) ON 1=0
+WHEN NOT MATCHED THEN
+INSERT ([BookedTicketId], [Quantity], [TicketCode], [UpdatedAt])
+VALUES (i.[BookedTicketId], i.[Quantity], i.[TicketCode], i.[UpdatedAt])
+OUTPUT INSERTED.[Id], i._Position;
+2026-02-28 09:50:10.244 +07:00 [INF] Executing OkObjectResult, writing value of type 'Acceloka.API.Features.Tickets.Commands.BookTicketResponse'.
+2026-02-28 09:50:10.245 +07:00 [INF] Executed action Acceloka.API.Controllers.TicketsController.BookTicket (Acceloka.API) in 84.8058ms
+2026-02-28 09:50:10.245 +07:00 [INF] Executed endpoint 'Acceloka.API.Controllers.TicketsController.BookTicket (Acceloka.API)'
+2026-02-28 09:50:10.245 +07:00 [INF] Request finished HTTP/1.1 POST http://localhost:5209/api/v1/book-ticket - 200 null application/json; charset=utf-8 85.4597ms
+2026-02-28 09:50:33.187 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5209/api/v1/get-booked-ticket/1005 - null null
+2026-02-28 09:50:33.188 +07:00 [INF] CORS policy execution successful.
+2026-02-28 09:50:33.188 +07:00 [INF] CORS policy execution successful.
+2026-02-28 09:50:33.188 +07:00 [INF] Executing endpoint 'Acceloka.API.Controllers.TicketsController.GetBookedTicketDetail (Acceloka.API)'
+2026-02-28 09:50:33.188 +07:00 [INF] Route matched with {action = "GetBookedTicketDetail", controller = "Tickets"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetBookedTicketDetail(Int32) on controller Acceloka.API.Controllers.TicketsController (Acceloka.API).
+2026-02-28 09:50:33.207 +07:00 [INF] Executed DbCommand (18ms) [Parameters=[@request_BookedTicketId='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [b].[Id], [b].[BookingDate], [b].[CreatedAt], [b].[Status]
+FROM [BookedTickets] AS [b]
+WHERE [b].[Id] = @request_BookedTicketId
+2026-02-28 09:50:33.221 +07:00 [INF] Executed DbCommand (13ms) [Parameters=[@request_BookedTicketId='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[CategoryName], [t].[TicketCode], [t].[TicketName], [t].[EventDate], [b].[Quantity]
+FROM [BookedTicketsDetail] AS [b]
+INNER JOIN [Tickets] AS [t] ON [b].[TicketCode] = [t].[TicketCode]
+WHERE [b].[BookedTicketId] = @request_BookedTicketId
+2026-02-28 09:50:33.221 +07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Acceloka.API.Features.Tickets.Queries.BookedTicketDetailResponse, Acceloka.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-02-28 09:50:33.222 +07:00 [INF] Executed action Acceloka.API.Controllers.TicketsController.GetBookedTicketDetail (Acceloka.API) in 33.4037ms
+2026-02-28 09:50:33.222 +07:00 [INF] Executed endpoint 'Acceloka.API.Controllers.TicketsController.GetBookedTicketDetail (Acceloka.API)'
+2026-02-28 09:50:33.222 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5209/api/v1/get-booked-ticket/1005 - 200 null application/json; charset=utf-8 34.3863ms
+2026-02-28 09:52:15.210 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5209/api/v1/get-available-ticket?pageNumber=1&pageSize=10 - null null
+2026-02-28 09:52:15.211 +07:00 [INF] CORS policy execution successful.
+2026-02-28 09:52:15.212 +07:00 [INF] CORS policy execution successful.
+2026-02-28 09:52:15.212 +07:00 [INF] Executing endpoint 'Acceloka.API.Controllers.TicketsController.GetAvailableTicket (Acceloka.API)'
+2026-02-28 09:52:15.212 +07:00 [INF] Route matched with {action = "GetAvailableTicket", controller = "Tickets"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAvailableTicket(Acceloka.API.Features.Tickets.Queries.AvailableTicketsQuery) on controller Acceloka.API.Controllers.TicketsController (Acceloka.API).
+2026-02-28 09:52:15.246 +07:00 [INF] Executed DbCommand (28ms) [Parameters=[@p='?' (DbType = Int32), @p1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[CategoryName], [t].[TicketCode], [t].[TicketName], [t].[EventDate], [t].[Price], [t].[Quota] AS [RemainingQuota]
+FROM [Tickets] AS [t]
+WHERE [t].[IsActive] = CAST(1 AS bit) AND [t].[Quota] > 0
+ORDER BY [t].[TicketCode]
+OFFSET @p ROWS FETCH NEXT @p1 ROWS ONLY
+2026-02-28 09:52:15.247 +07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Acceloka.API.Features.Tickets.Queries.AvailableTicketsResponse, Acceloka.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-02-28 09:52:15.247 +07:00 [INF] Executed action Acceloka.API.Controllers.TicketsController.GetAvailableTicket (Acceloka.API) in 35.1705ms
+2026-02-28 09:52:15.247 +07:00 [INF] Executed endpoint 'Acceloka.API.Controllers.TicketsController.GetAvailableTicket (Acceloka.API)'
+2026-02-28 09:52:15.248 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5209/api/v1/get-available-ticket?pageNumber=1&pageSize=10 - 200 null application/json; charset=utf-8 37.7248ms
+2026-02-28 09:52:15.252 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5209/api/v1/get-available-ticket?pageNumber=1&pageSize=10 - null null
+2026-02-28 09:52:15.252 +07:00 [INF] CORS policy execution successful.
+2026-02-28 09:52:15.252 +07:00 [INF] CORS policy execution successful.
+2026-02-28 09:52:15.252 +07:00 [INF] Executing endpoint 'Acceloka.API.Controllers.TicketsController.GetAvailableTicket (Acceloka.API)'
+2026-02-28 09:52:15.252 +07:00 [INF] Route matched with {action = "GetAvailableTicket", controller = "Tickets"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAvailableTicket(Acceloka.API.Features.Tickets.Queries.AvailableTicketsQuery) on controller Acceloka.API.Controllers.TicketsController (Acceloka.API).
+2026-02-28 09:52:15.257 +07:00 [INF] Executed DbCommand (2ms) [Parameters=[@p='?' (DbType = Int32), @p1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[CategoryName], [t].[TicketCode], [t].[TicketName], [t].[EventDate], [t].[Price], [t].[Quota] AS [RemainingQuota]
+FROM [Tickets] AS [t]
+WHERE [t].[IsActive] = CAST(1 AS bit) AND [t].[Quota] > 0
+ORDER BY [t].[TicketCode]
+OFFSET @p ROWS FETCH NEXT @p1 ROWS ONLY
+2026-02-28 09:52:15.258 +07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Acceloka.API.Features.Tickets.Queries.AvailableTicketsResponse, Acceloka.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-02-28 09:52:15.258 +07:00 [INF] Executed action Acceloka.API.Controllers.TicketsController.GetAvailableTicket (Acceloka.API) in 5.5807ms
+2026-02-28 09:52:15.258 +07:00 [INF] Executed endpoint 'Acceloka.API.Controllers.TicketsController.GetAvailableTicket (Acceloka.API)'
+2026-02-28 09:52:15.258 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5209/api/v1/get-available-ticket?pageNumber=1&pageSize=10 - 200 null application/json; charset=utf-8 6.4986ms
+2026-02-28 09:52:29.478 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5209/api/v1/get-available-ticket?pageNumber=1&pageSize=10 - null null
+2026-02-28 09:52:29.479 +07:00 [INF] CORS policy execution successful.
+2026-02-28 09:52:29.479 +07:00 [INF] CORS policy execution successful.
+2026-02-28 09:52:29.479 +07:00 [INF] Executing endpoint 'Acceloka.API.Controllers.TicketsController.GetAvailableTicket (Acceloka.API)'
+2026-02-28 09:52:29.480 +07:00 [INF] Route matched with {action = "GetAvailableTicket", controller = "Tickets"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAvailableTicket(Acceloka.API.Features.Tickets.Queries.AvailableTicketsQuery) on controller Acceloka.API.Controllers.TicketsController (Acceloka.API).
+2026-02-28 09:52:29.484 +07:00 [INF] Executed DbCommand (2ms) [Parameters=[@p='?' (DbType = Int32), @p1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[CategoryName], [t].[TicketCode], [t].[TicketName], [t].[EventDate], [t].[Price], [t].[Quota] AS [RemainingQuota]
+FROM [Tickets] AS [t]
+WHERE [t].[IsActive] = CAST(1 AS bit) AND [t].[Quota] > 0
+ORDER BY [t].[TicketCode]
+OFFSET @p ROWS FETCH NEXT @p1 ROWS ONLY
+2026-02-28 09:52:29.485 +07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Acceloka.API.Features.Tickets.Queries.AvailableTicketsResponse, Acceloka.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-02-28 09:52:29.485 +07:00 [INF] Executed action Acceloka.API.Controllers.TicketsController.GetAvailableTicket (Acceloka.API) in 5.544ms
+2026-02-28 09:52:29.485 +07:00 [INF] Executed endpoint 'Acceloka.API.Controllers.TicketsController.GetAvailableTicket (Acceloka.API)'
+2026-02-28 09:52:29.485 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5209/api/v1/get-available-ticket?pageNumber=1&pageSize=10 - 200 null application/json; charset=utf-8 8.5149ms
+2026-02-28 09:52:29.488 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5209/api/v1/get-available-ticket?pageNumber=1&pageSize=10 - null null
+2026-02-28 09:52:29.489 +07:00 [INF] CORS policy execution successful.
+2026-02-28 09:52:29.489 +07:00 [INF] CORS policy execution successful.
+2026-02-28 09:52:29.489 +07:00 [INF] Executing endpoint 'Acceloka.API.Controllers.TicketsController.GetAvailableTicket (Acceloka.API)'
+2026-02-28 09:52:29.489 +07:00 [INF] Route matched with {action = "GetAvailableTicket", controller = "Tickets"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAvailableTicket(Acceloka.API.Features.Tickets.Queries.AvailableTicketsQuery) on controller Acceloka.API.Controllers.TicketsController (Acceloka.API).
+2026-02-28 09:52:29.493 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[@p='?' (DbType = Int32), @p1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[CategoryName], [t].[TicketCode], [t].[TicketName], [t].[EventDate], [t].[Price], [t].[Quota] AS [RemainingQuota]
+FROM [Tickets] AS [t]
+WHERE [t].[IsActive] = CAST(1 AS bit) AND [t].[Quota] > 0
+ORDER BY [t].[TicketCode]
+OFFSET @p ROWS FETCH NEXT @p1 ROWS ONLY
+2026-02-28 09:52:29.494 +07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Acceloka.API.Features.Tickets.Queries.AvailableTicketsResponse, Acceloka.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-02-28 09:52:29.495 +07:00 [INF] Executed action Acceloka.API.Controllers.TicketsController.GetAvailableTicket (Acceloka.API) in 6.1082ms
+2026-02-28 09:52:29.495 +07:00 [INF] Executed endpoint 'Acceloka.API.Controllers.TicketsController.GetAvailableTicket (Acceloka.API)'
+2026-02-28 09:52:29.495 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5209/api/v1/get-available-ticket?pageNumber=1&pageSize=10 - 200 null application/json; charset=utf-8 7.311ms
+2026-02-28 09:52:32.703 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5209/api/v1/get-available-ticket?pageNumber=2&pageSize=10 - null null
+2026-02-28 09:52:32.703 +07:00 [INF] CORS policy execution successful.
+2026-02-28 09:52:32.703 +07:00 [INF] CORS policy execution successful.
+2026-02-28 09:52:32.703 +07:00 [INF] Executing endpoint 'Acceloka.API.Controllers.TicketsController.GetAvailableTicket (Acceloka.API)'
+2026-02-28 09:52:32.703 +07:00 [INF] Route matched with {action = "GetAvailableTicket", controller = "Tickets"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAvailableTicket(Acceloka.API.Features.Tickets.Queries.AvailableTicketsQuery) on controller Acceloka.API.Controllers.TicketsController (Acceloka.API).
+2026-02-28 09:52:32.723 +07:00 [INF] Executed DbCommand (8ms) [Parameters=[@p='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[CategoryName], [t].[TicketCode], [t].[TicketName], [t].[EventDate], [t].[Price], [t].[Quota] AS [RemainingQuota]
+FROM [Tickets] AS [t]
+WHERE [t].[IsActive] = CAST(1 AS bit) AND [t].[Quota] > 0
+ORDER BY [t].[TicketCode]
+OFFSET @p ROWS FETCH NEXT @p ROWS ONLY
+2026-02-28 09:52:32.724 +07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Acceloka.API.Features.Tickets.Queries.AvailableTicketsResponse, Acceloka.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-02-28 09:52:32.724 +07:00 [INF] Executed action Acceloka.API.Controllers.TicketsController.GetAvailableTicket (Acceloka.API) in 20.4434ms
+2026-02-28 09:52:32.724 +07:00 [INF] Executed endpoint 'Acceloka.API.Controllers.TicketsController.GetAvailableTicket (Acceloka.API)'
+2026-02-28 09:52:32.724 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5209/api/v1/get-available-ticket?pageNumber=2&pageSize=10 - 200 null application/json; charset=utf-8 21.2966ms
+2026-02-28 09:52:34.515 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5209/api/v1/get-available-ticket?pageNumber=1&pageSize=10 - null null
+2026-02-28 09:52:34.515 +07:00 [INF] CORS policy execution successful.
+2026-02-28 09:52:34.515 +07:00 [INF] CORS policy execution successful.
+2026-02-28 09:52:34.515 +07:00 [INF] Executing endpoint 'Acceloka.API.Controllers.TicketsController.GetAvailableTicket (Acceloka.API)'
+2026-02-28 09:52:34.515 +07:00 [INF] Route matched with {action = "GetAvailableTicket", controller = "Tickets"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAvailableTicket(Acceloka.API.Features.Tickets.Queries.AvailableTicketsQuery) on controller Acceloka.API.Controllers.TicketsController (Acceloka.API).
+2026-02-28 09:52:34.518 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[@p='?' (DbType = Int32), @p1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[CategoryName], [t].[TicketCode], [t].[TicketName], [t].[EventDate], [t].[Price], [t].[Quota] AS [RemainingQuota]
+FROM [Tickets] AS [t]
+WHERE [t].[IsActive] = CAST(1 AS bit) AND [t].[Quota] > 0
+ORDER BY [t].[TicketCode]
+OFFSET @p ROWS FETCH NEXT @p1 ROWS ONLY
+2026-02-28 09:52:34.519 +07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Acceloka.API.Features.Tickets.Queries.AvailableTicketsResponse, Acceloka.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-02-28 09:52:34.519 +07:00 [INF] Executed action Acceloka.API.Controllers.TicketsController.GetAvailableTicket (Acceloka.API) in 3.7667ms
+2026-02-28 09:52:34.519 +07:00 [INF] Executed endpoint 'Acceloka.API.Controllers.TicketsController.GetAvailableTicket (Acceloka.API)'
+2026-02-28 09:52:34.519 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5209/api/v1/get-available-ticket?pageNumber=1&pageSize=10 - 200 null application/json; charset=utf-8 4.421ms
+2026-02-28 10:39:44.924 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5209/api/v1/get-available-ticket?pageNumber=1&pageSize=10 - null null
+2026-02-28 10:39:44.925 +07:00 [INF] CORS policy execution successful.
+2026-02-28 10:39:44.925 +07:00 [INF] CORS policy execution successful.
+2026-02-28 10:39:44.925 +07:00 [INF] Executing endpoint 'Acceloka.API.Controllers.TicketsController.GetAvailableTicket (Acceloka.API)'
+2026-02-28 10:39:44.925 +07:00 [INF] Route matched with {action = "GetAvailableTicket", controller = "Tickets"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAvailableTicket(Acceloka.API.Features.Tickets.Queries.AvailableTicketsQuery) on controller Acceloka.API.Controllers.TicketsController (Acceloka.API).
+2026-02-28 10:39:45.016 +07:00 [INF] Executed DbCommand (24ms) [Parameters=[@p='?' (DbType = Int32), @p1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[CategoryName], [t].[TicketCode], [t].[TicketName], [t].[EventDate], [t].[Price], [t].[Quota] AS [RemainingQuota]
+FROM [Tickets] AS [t]
+WHERE [t].[IsActive] = CAST(1 AS bit) AND [t].[Quota] > 0
+ORDER BY [t].[TicketCode]
+OFFSET @p ROWS FETCH NEXT @p1 ROWS ONLY
+2026-02-28 10:39:45.017 +07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Acceloka.API.Features.Tickets.Queries.AvailableTicketsResponse, Acceloka.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-02-28 10:39:45.017 +07:00 [INF] Executed action Acceloka.API.Controllers.TicketsController.GetAvailableTicket (Acceloka.API) in 91.2904ms
+2026-02-28 10:39:45.017 +07:00 [INF] Executed endpoint 'Acceloka.API.Controllers.TicketsController.GetAvailableTicket (Acceloka.API)'
+2026-02-28 10:39:45.017 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5209/api/v1/get-available-ticket?pageNumber=1&pageSize=10 - 200 null application/json; charset=utf-8 93.4304ms
+2026-02-28 10:49:12.046 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5209/api/v1/get-available-ticket?PageNumber=1&PageSize=10 - null null
+2026-02-28 10:49:12.064 +07:00 [INF] CORS policy execution successful.
+2026-02-28 10:49:12.065 +07:00 [INF] CORS policy execution successful.
+2026-02-28 10:49:12.065 +07:00 [INF] Executing endpoint 'Acceloka.API.Controllers.TicketsController.GetAvailableTicket (Acceloka.API)'
+2026-02-28 10:49:12.071 +07:00 [INF] Route matched with {action = "GetAvailableTicket", controller = "Tickets"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAvailableTicket(Acceloka.API.Features.Tickets.Queries.AvailableTicketsQuery) on controller Acceloka.API.Controllers.TicketsController (Acceloka.API).
+2026-02-28 10:49:13.145 +07:00 [INF] Executed DbCommand (748ms) [Parameters=[@p='?' (DbType = Int32), @p1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[CategoryName], [t].[TicketCode], [t].[TicketName], [t].[EventDate], [t].[Price], [t].[Quota] AS [RemainingQuota]
+FROM [Tickets] AS [t]
+WHERE [t].[IsActive] = CAST(1 AS bit) AND [t].[Quota] > 0
+ORDER BY [t].[TicketCode]
+OFFSET @p ROWS FETCH NEXT @p1 ROWS ONLY
+2026-02-28 10:49:13.147 +07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Acceloka.API.Features.Tickets.Queries.AvailableTicketsResponse, Acceloka.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-02-28 10:49:13.151 +07:00 [INF] Executed action Acceloka.API.Controllers.TicketsController.GetAvailableTicket (Acceloka.API) in 1079.5388ms
+2026-02-28 10:49:13.151 +07:00 [INF] Executed endpoint 'Acceloka.API.Controllers.TicketsController.GetAvailableTicket (Acceloka.API)'
+2026-02-28 10:49:13.151 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5209/api/v1/get-available-ticket?PageNumber=1&PageSize=10 - 200 null application/json; charset=utf-8 1107.1487ms
+2026-02-28 10:49:17.705 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5209/api/v1/get-available-ticket?PageNumber=1&PageSize=10 - null null
+2026-02-28 10:49:17.705 +07:00 [INF] CORS policy execution successful.
+2026-02-28 10:49:17.705 +07:00 [INF] CORS policy execution successful.
+2026-02-28 10:49:17.705 +07:00 [INF] Executing endpoint 'Acceloka.API.Controllers.TicketsController.GetAvailableTicket (Acceloka.API)'
+2026-02-28 10:49:17.705 +07:00 [INF] Route matched with {action = "GetAvailableTicket", controller = "Tickets"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAvailableTicket(Acceloka.API.Features.Tickets.Queries.AvailableTicketsQuery) on controller Acceloka.API.Controllers.TicketsController (Acceloka.API).
+2026-02-28 10:49:17.717 +07:00 [INF] Executed DbCommand (7ms) [Parameters=[@p='?' (DbType = Int32), @p1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[CategoryName], [t].[TicketCode], [t].[TicketName], [t].[EventDate], [t].[Price], [t].[Quota] AS [RemainingQuota]
+FROM [Tickets] AS [t]
+WHERE [t].[IsActive] = CAST(1 AS bit) AND [t].[Quota] > 0
+ORDER BY [t].[TicketCode]
+OFFSET @p ROWS FETCH NEXT @p1 ROWS ONLY
+2026-02-28 10:49:17.718 +07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Acceloka.API.Features.Tickets.Queries.AvailableTicketsResponse, Acceloka.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-02-28 10:49:17.718 +07:00 [INF] Executed action Acceloka.API.Controllers.TicketsController.GetAvailableTicket (Acceloka.API) in 12.5917ms
+2026-02-28 10:49:17.718 +07:00 [INF] Executed endpoint 'Acceloka.API.Controllers.TicketsController.GetAvailableTicket (Acceloka.API)'
+2026-02-28 10:49:17.718 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5209/api/v1/get-available-ticket?PageNumber=1&PageSize=10 - 200 null application/json; charset=utf-8 13.859ms
+2026-02-28 10:49:17.720 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5209/api/v1/get-available-ticket?PageNumber=1&PageSize=10 - null null
+2026-02-28 10:49:17.721 +07:00 [INF] CORS policy execution successful.
+2026-02-28 10:49:17.721 +07:00 [INF] CORS policy execution successful.
+2026-02-28 10:49:17.721 +07:00 [INF] Executing endpoint 'Acceloka.API.Controllers.TicketsController.GetAvailableTicket (Acceloka.API)'
+2026-02-28 10:49:17.721 +07:00 [INF] Route matched with {action = "GetAvailableTicket", controller = "Tickets"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAvailableTicket(Acceloka.API.Features.Tickets.Queries.AvailableTicketsQuery) on controller Acceloka.API.Controllers.TicketsController (Acceloka.API).
+2026-02-28 10:49:17.724 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[@p='?' (DbType = Int32), @p1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[CategoryName], [t].[TicketCode], [t].[TicketName], [t].[EventDate], [t].[Price], [t].[Quota] AS [RemainingQuota]
+FROM [Tickets] AS [t]
+WHERE [t].[IsActive] = CAST(1 AS bit) AND [t].[Quota] > 0
+ORDER BY [t].[TicketCode]
+OFFSET @p ROWS FETCH NEXT @p1 ROWS ONLY
+2026-02-28 10:49:17.724 +07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Acceloka.API.Features.Tickets.Queries.AvailableTicketsResponse, Acceloka.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-02-28 10:49:17.724 +07:00 [INF] Executed action Acceloka.API.Controllers.TicketsController.GetAvailableTicket (Acceloka.API) in 3.3598ms
+2026-02-28 10:49:17.725 +07:00 [INF] Executed endpoint 'Acceloka.API.Controllers.TicketsController.GetAvailableTicket (Acceloka.API)'
+2026-02-28 10:49:17.725 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5209/api/v1/get-available-ticket?PageNumber=1&PageSize=10 - 200 null application/json; charset=utf-8 4.2282ms
+2026-02-28 10:49:26.018 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5209/api/v1/get-available-ticket?PageNumber=1&PageSize=10&CategoryName=Bioskop - null null
+2026-02-28 10:49:26.018 +07:00 [INF] CORS policy execution successful.
+2026-02-28 10:49:26.018 +07:00 [INF] CORS policy execution successful.
+2026-02-28 10:49:26.018 +07:00 [INF] Executing endpoint 'Acceloka.API.Controllers.TicketsController.GetAvailableTicket (Acceloka.API)'
+2026-02-28 10:49:26.018 +07:00 [INF] Route matched with {action = "GetAvailableTicket", controller = "Tickets"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAvailableTicket(Acceloka.API.Features.Tickets.Queries.AvailableTicketsQuery) on controller Acceloka.API.Controllers.TicketsController (Acceloka.API).
+2026-02-28 10:49:26.245 +07:00 [INF] Executed DbCommand (141ms) [Parameters=[@request_CategoryName_contains='?' (Size = 4000), @p='?' (DbType = Int32), @p2='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[CategoryName], [t].[TicketCode], [t].[TicketName], [t].[EventDate], [t].[Price], [t].[Quota] AS [RemainingQuota]
+FROM [Tickets] AS [t]
+WHERE [t].[IsActive] = CAST(1 AS bit) AND [t].[Quota] > 0 AND [t].[CategoryName] LIKE @request_CategoryName_contains ESCAPE N'\'
+ORDER BY [t].[TicketCode]
+OFFSET @p ROWS FETCH NEXT @p2 ROWS ONLY
+2026-02-28 10:49:26.246 +07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Acceloka.API.Features.Tickets.Queries.AvailableTicketsResponse, Acceloka.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-02-28 10:49:26.246 +07:00 [INF] Executed action Acceloka.API.Controllers.TicketsController.GetAvailableTicket (Acceloka.API) in 227.97ms
+2026-02-28 10:49:26.246 +07:00 [INF] Executed endpoint 'Acceloka.API.Controllers.TicketsController.GetAvailableTicket (Acceloka.API)'
+2026-02-28 10:49:26.246 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5209/api/v1/get-available-ticket?PageNumber=1&PageSize=10&CategoryName=Bioskop - 200 null application/json; charset=utf-8 228.508ms
+2026-02-28 10:49:33.708 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5209/api/v1/get-available-ticket?PageNumber=1&PageSize=10 - null null
+2026-02-28 10:49:33.709 +07:00 [INF] CORS policy execution successful.
+2026-02-28 10:49:33.709 +07:00 [INF] CORS policy execution successful.
+2026-02-28 10:49:33.709 +07:00 [INF] Executing endpoint 'Acceloka.API.Controllers.TicketsController.GetAvailableTicket (Acceloka.API)'
+2026-02-28 10:49:33.709 +07:00 [INF] Route matched with {action = "GetAvailableTicket", controller = "Tickets"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAvailableTicket(Acceloka.API.Features.Tickets.Queries.AvailableTicketsQuery) on controller Acceloka.API.Controllers.TicketsController (Acceloka.API).
+2026-02-28 10:49:33.732 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[@p='?' (DbType = Int32), @p1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[CategoryName], [t].[TicketCode], [t].[TicketName], [t].[EventDate], [t].[Price], [t].[Quota] AS [RemainingQuota]
+FROM [Tickets] AS [t]
+WHERE [t].[IsActive] = CAST(1 AS bit) AND [t].[Quota] > 0
+ORDER BY [t].[TicketCode]
+OFFSET @p ROWS FETCH NEXT @p1 ROWS ONLY
+2026-02-28 10:49:33.732 +07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Acceloka.API.Features.Tickets.Queries.AvailableTicketsResponse, Acceloka.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-02-28 10:49:33.732 +07:00 [INF] Executed action Acceloka.API.Controllers.TicketsController.GetAvailableTicket (Acceloka.API) in 22.9069ms
+2026-02-28 10:49:33.732 +07:00 [INF] Executed endpoint 'Acceloka.API.Controllers.TicketsController.GetAvailableTicket (Acceloka.API)'
+2026-02-28 10:49:33.732 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5209/api/v1/get-available-ticket?PageNumber=1&PageSize=10 - 200 null application/json; charset=utf-8 23.9928ms
+2026-02-28 10:49:44.788 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5209/api/v1/get-available-ticket?PageNumber=1&PageSize=10&OrderBy=price - null null
+2026-02-28 10:49:44.788 +07:00 [INF] CORS policy execution successful.
+2026-02-28 10:49:44.788 +07:00 [INF] CORS policy execution successful.
+2026-02-28 10:49:44.788 +07:00 [INF] Executing endpoint 'Acceloka.API.Controllers.TicketsController.GetAvailableTicket (Acceloka.API)'
+2026-02-28 10:49:44.788 +07:00 [INF] Route matched with {action = "GetAvailableTicket", controller = "Tickets"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAvailableTicket(Acceloka.API.Features.Tickets.Queries.AvailableTicketsQuery) on controller Acceloka.API.Controllers.TicketsController (Acceloka.API).
+2026-02-28 10:49:44.824 +07:00 [INF] Executed DbCommand (24ms) [Parameters=[@p='?' (DbType = Int32), @p1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[CategoryName], [t].[TicketCode], [t].[TicketName], [t].[EventDate], [t].[Price], [t].[Quota] AS [RemainingQuota]
+FROM [Tickets] AS [t]
+WHERE [t].[IsActive] = CAST(1 AS bit) AND [t].[Quota] > 0
+ORDER BY [t].[Price]
+OFFSET @p ROWS FETCH NEXT @p1 ROWS ONLY
+2026-02-28 10:49:44.824 +07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Acceloka.API.Features.Tickets.Queries.AvailableTicketsResponse, Acceloka.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-02-28 10:49:44.825 +07:00 [INF] Executed action Acceloka.API.Controllers.TicketsController.GetAvailableTicket (Acceloka.API) in 36.4623ms
+2026-02-28 10:49:44.825 +07:00 [INF] Executed endpoint 'Acceloka.API.Controllers.TicketsController.GetAvailableTicket (Acceloka.API)'
+2026-02-28 10:49:44.825 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5209/api/v1/get-available-ticket?PageNumber=1&PageSize=10&OrderBy=price - 200 null application/json; charset=utf-8 37.1431ms
+2026-02-28 10:49:46.203 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5209/api/v1/get-available-ticket?PageNumber=1&PageSize=10&OrderBy=price - null null
+2026-02-28 10:49:46.203 +07:00 [INF] CORS policy execution successful.
+2026-02-28 10:49:46.203 +07:00 [INF] CORS policy execution successful.
+2026-02-28 10:49:46.203 +07:00 [INF] Executing endpoint 'Acceloka.API.Controllers.TicketsController.GetAvailableTicket (Acceloka.API)'
+2026-02-28 10:49:46.203 +07:00 [INF] Route matched with {action = "GetAvailableTicket", controller = "Tickets"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAvailableTicket(Acceloka.API.Features.Tickets.Queries.AvailableTicketsQuery) on controller Acceloka.API.Controllers.TicketsController (Acceloka.API).
+2026-02-28 10:49:46.208 +07:00 [INF] Executed DbCommand (2ms) [Parameters=[@p='?' (DbType = Int32), @p1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[CategoryName], [t].[TicketCode], [t].[TicketName], [t].[EventDate], [t].[Price], [t].[Quota] AS [RemainingQuota]
+FROM [Tickets] AS [t]
+WHERE [t].[IsActive] = CAST(1 AS bit) AND [t].[Quota] > 0
+ORDER BY [t].[Price]
+OFFSET @p ROWS FETCH NEXT @p1 ROWS ONLY
+2026-02-28 10:49:46.208 +07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Acceloka.API.Features.Tickets.Queries.AvailableTicketsResponse, Acceloka.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-02-28 10:49:46.209 +07:00 [INF] Executed action Acceloka.API.Controllers.TicketsController.GetAvailableTicket (Acceloka.API) in 5.4438ms
+2026-02-28 10:49:46.209 +07:00 [INF] Executed endpoint 'Acceloka.API.Controllers.TicketsController.GetAvailableTicket (Acceloka.API)'
+2026-02-28 10:49:46.209 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5209/api/v1/get-available-ticket?PageNumber=1&PageSize=10&OrderBy=price - 200 null application/json; charset=utf-8 5.8484ms
+2026-02-28 10:51:14.976 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5209/api/v1/get-available-ticket?PageNumber=1&PageSize=10&CategoryName=sasas&OrderBy=price - null null
+2026-02-28 10:51:14.977 +07:00 [INF] CORS policy execution successful.
+2026-02-28 10:51:14.977 +07:00 [INF] CORS policy execution successful.
+2026-02-28 10:51:14.977 +07:00 [INF] Executing endpoint 'Acceloka.API.Controllers.TicketsController.GetAvailableTicket (Acceloka.API)'
+2026-02-28 10:51:14.977 +07:00 [INF] Route matched with {action = "GetAvailableTicket", controller = "Tickets"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAvailableTicket(Acceloka.API.Features.Tickets.Queries.AvailableTicketsQuery) on controller Acceloka.API.Controllers.TicketsController (Acceloka.API).
+2026-02-28 10:51:15.031 +07:00 [INF] Executed DbCommand (34ms) [Parameters=[@request_CategoryName_contains='?' (Size = 4000), @p='?' (DbType = Int32), @p2='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[CategoryName], [t].[TicketCode], [t].[TicketName], [t].[EventDate], [t].[Price], [t].[Quota] AS [RemainingQuota]
+FROM [Tickets] AS [t]
+WHERE [t].[IsActive] = CAST(1 AS bit) AND [t].[Quota] > 0 AND [t].[CategoryName] LIKE @request_CategoryName_contains ESCAPE N'\'
+ORDER BY [t].[Price]
+OFFSET @p ROWS FETCH NEXT @p2 ROWS ONLY
+2026-02-28 10:51:15.031 +07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Acceloka.API.Features.Tickets.Queries.AvailableTicketsResponse, Acceloka.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-02-28 10:51:15.031 +07:00 [INF] Executed action Acceloka.API.Controllers.TicketsController.GetAvailableTicket (Acceloka.API) in 54.0289ms
+2026-02-28 10:51:15.031 +07:00 [INF] Executed endpoint 'Acceloka.API.Controllers.TicketsController.GetAvailableTicket (Acceloka.API)'
+2026-02-28 10:51:15.031 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5209/api/v1/get-available-ticket?PageNumber=1&PageSize=10&CategoryName=sasas&OrderBy=price - 200 null application/json; charset=utf-8 55.2681ms
+2026-02-28 10:56:59.019 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5209/api/v1/get-available-ticket?PageNumber=1&PageSize=10 - null null
+2026-02-28 10:56:59.020 +07:00 [INF] CORS policy execution successful.
+2026-02-28 10:56:59.020 +07:00 [INF] CORS policy execution successful.
+2026-02-28 10:56:59.020 +07:00 [INF] Executing endpoint 'Acceloka.API.Controllers.TicketsController.GetAvailableTicket (Acceloka.API)'
+2026-02-28 10:56:59.020 +07:00 [INF] Route matched with {action = "GetAvailableTicket", controller = "Tickets"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAvailableTicket(Acceloka.API.Features.Tickets.Queries.AvailableTicketsQuery) on controller Acceloka.API.Controllers.TicketsController (Acceloka.API).
+2026-02-28 10:56:59.114 +07:00 [INF] Executed DbCommand (17ms) [Parameters=[@p='?' (DbType = Int32), @p1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[CategoryName], [t].[TicketCode], [t].[TicketName], [t].[EventDate], [t].[Price], [t].[Quota] AS [RemainingQuota]
+FROM [Tickets] AS [t]
+WHERE [t].[IsActive] = CAST(1 AS bit) AND [t].[Quota] > 0
+ORDER BY [t].[TicketCode]
+OFFSET @p ROWS FETCH NEXT @p1 ROWS ONLY
+2026-02-28 10:56:59.114 +07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Acceloka.API.Features.Tickets.Queries.AvailableTicketsResponse, Acceloka.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-02-28 10:56:59.114 +07:00 [INF] Executed action Acceloka.API.Controllers.TicketsController.GetAvailableTicket (Acceloka.API) in 93.7389ms
+2026-02-28 10:56:59.114 +07:00 [INF] Executed endpoint 'Acceloka.API.Controllers.TicketsController.GetAvailableTicket (Acceloka.API)'
+2026-02-28 10:56:59.114 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5209/api/v1/get-available-ticket?PageNumber=1&PageSize=10 - 200 null application/json; charset=utf-8 95.1319ms
+2026-02-28 10:57:01.370 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5209/api/v1/get-available-ticket?PageNumber=2&PageSize=10 - null null
+2026-02-28 10:57:01.371 +07:00 [INF] CORS policy execution successful.
+2026-02-28 10:57:01.371 +07:00 [INF] CORS policy execution successful.
+2026-02-28 10:57:01.371 +07:00 [INF] Executing endpoint 'Acceloka.API.Controllers.TicketsController.GetAvailableTicket (Acceloka.API)'
+2026-02-28 10:57:01.372 +07:00 [INF] Route matched with {action = "GetAvailableTicket", controller = "Tickets"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAvailableTicket(Acceloka.API.Features.Tickets.Queries.AvailableTicketsQuery) on controller Acceloka.API.Controllers.TicketsController (Acceloka.API).
+2026-02-28 10:57:01.384 +07:00 [INF] Executed DbCommand (8ms) [Parameters=[@p='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[CategoryName], [t].[TicketCode], [t].[TicketName], [t].[EventDate], [t].[Price], [t].[Quota] AS [RemainingQuota]
+FROM [Tickets] AS [t]
+WHERE [t].[IsActive] = CAST(1 AS bit) AND [t].[Quota] > 0
+ORDER BY [t].[TicketCode]
+OFFSET @p ROWS FETCH NEXT @p ROWS ONLY
+2026-02-28 10:57:01.384 +07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Acceloka.API.Features.Tickets.Queries.AvailableTicketsResponse, Acceloka.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-02-28 10:57:01.384 +07:00 [INF] Executed action Acceloka.API.Controllers.TicketsController.GetAvailableTicket (Acceloka.API) in 12.4227ms
+2026-02-28 10:57:01.384 +07:00 [INF] Executed endpoint 'Acceloka.API.Controllers.TicketsController.GetAvailableTicket (Acceloka.API)'
+2026-02-28 10:57:01.384 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5209/api/v1/get-available-ticket?PageNumber=2&PageSize=10 - 200 null application/json; charset=utf-8 13.8808ms
+2026-02-28 10:57:03.068 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5209/api/v1/get-available-ticket?PageNumber=1&PageSize=10 - null null
+2026-02-28 10:57:03.068 +07:00 [INF] CORS policy execution successful.
+2026-02-28 10:57:03.069 +07:00 [INF] CORS policy execution successful.
+2026-02-28 10:57:03.069 +07:00 [INF] Executing endpoint 'Acceloka.API.Controllers.TicketsController.GetAvailableTicket (Acceloka.API)'
+2026-02-28 10:57:03.069 +07:00 [INF] Route matched with {action = "GetAvailableTicket", controller = "Tickets"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAvailableTicket(Acceloka.API.Features.Tickets.Queries.AvailableTicketsQuery) on controller Acceloka.API.Controllers.TicketsController (Acceloka.API).
+2026-02-28 10:57:03.073 +07:00 [INF] Executed DbCommand (2ms) [Parameters=[@p='?' (DbType = Int32), @p1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[CategoryName], [t].[TicketCode], [t].[TicketName], [t].[EventDate], [t].[Price], [t].[Quota] AS [RemainingQuota]
+FROM [Tickets] AS [t]
+WHERE [t].[IsActive] = CAST(1 AS bit) AND [t].[Quota] > 0
+ORDER BY [t].[TicketCode]
+OFFSET @p ROWS FETCH NEXT @p1 ROWS ONLY
+2026-02-28 10:57:03.074 +07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Acceloka.API.Features.Tickets.Queries.AvailableTicketsResponse, Acceloka.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-02-28 10:57:03.074 +07:00 [INF] Executed action Acceloka.API.Controllers.TicketsController.GetAvailableTicket (Acceloka.API) in 5.0931ms
+2026-02-28 10:57:03.074 +07:00 [INF] Executed endpoint 'Acceloka.API.Controllers.TicketsController.GetAvailableTicket (Acceloka.API)'
+2026-02-28 10:57:03.074 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5209/api/v1/get-available-ticket?PageNumber=1&PageSize=10 - 200 null application/json; charset=utf-8 5.9265ms
+2026-02-28 10:58:37.986 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5209/api/v1/get-available-ticket?PageNumber=1&PageSize=10 - null null
+2026-02-28 10:58:37.986 +07:00 [INF] CORS policy execution successful.
+2026-02-28 10:58:37.987 +07:00 [INF] CORS policy execution successful.
+2026-02-28 10:58:37.987 +07:00 [INF] Executing endpoint 'Acceloka.API.Controllers.TicketsController.GetAvailableTicket (Acceloka.API)'
+2026-02-28 10:58:37.987 +07:00 [INF] Route matched with {action = "GetAvailableTicket", controller = "Tickets"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAvailableTicket(Acceloka.API.Features.Tickets.Queries.AvailableTicketsQuery) on controller Acceloka.API.Controllers.TicketsController (Acceloka.API).
+2026-02-28 10:58:38.007 +07:00 [INF] Executed DbCommand (16ms) [Parameters=[@p='?' (DbType = Int32), @p1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[CategoryName], [t].[TicketCode], [t].[TicketName], [t].[EventDate], [t].[Price], [t].[Quota] AS [RemainingQuota]
+FROM [Tickets] AS [t]
+WHERE [t].[IsActive] = CAST(1 AS bit) AND [t].[Quota] > 0
+ORDER BY [t].[TicketCode]
+OFFSET @p ROWS FETCH NEXT @p1 ROWS ONLY
+2026-02-28 10:58:38.007 +07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Acceloka.API.Features.Tickets.Queries.AvailableTicketsResponse, Acceloka.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-02-28 10:58:38.008 +07:00 [INF] Executed action Acceloka.API.Controllers.TicketsController.GetAvailableTicket (Acceloka.API) in 20.2891ms
+2026-02-28 10:58:38.008 +07:00 [INF] Executed endpoint 'Acceloka.API.Controllers.TicketsController.GetAvailableTicket (Acceloka.API)'
+2026-02-28 10:58:38.008 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5209/api/v1/get-available-ticket?PageNumber=1&PageSize=10 - 200 null application/json; charset=utf-8 22.5778ms
+2026-02-28 10:58:38.015 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5209/api/v1/get-available-ticket?PageNumber=1&PageSize=10 - null null
+2026-02-28 10:58:38.055 +07:00 [INF] CORS policy execution successful.
+2026-02-28 10:58:38.055 +07:00 [INF] CORS policy execution successful.
+2026-02-28 10:58:38.055 +07:00 [INF] Executing endpoint 'Acceloka.API.Controllers.TicketsController.GetAvailableTicket (Acceloka.API)'
+2026-02-28 10:58:38.055 +07:00 [INF] Route matched with {action = "GetAvailableTicket", controller = "Tickets"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAvailableTicket(Acceloka.API.Features.Tickets.Queries.AvailableTicketsQuery) on controller Acceloka.API.Controllers.TicketsController (Acceloka.API).
+2026-02-28 10:58:38.058 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[@p='?' (DbType = Int32), @p1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[CategoryName], [t].[TicketCode], [t].[TicketName], [t].[EventDate], [t].[Price], [t].[Quota] AS [RemainingQuota]
+FROM [Tickets] AS [t]
+WHERE [t].[IsActive] = CAST(1 AS bit) AND [t].[Quota] > 0
+ORDER BY [t].[TicketCode]
+OFFSET @p ROWS FETCH NEXT @p1 ROWS ONLY
+2026-02-28 10:58:38.058 +07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Acceloka.API.Features.Tickets.Queries.AvailableTicketsResponse, Acceloka.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-02-28 10:58:38.058 +07:00 [INF] Executed action Acceloka.API.Controllers.TicketsController.GetAvailableTicket (Acceloka.API) in 2.7125ms
+2026-02-28 10:58:38.058 +07:00 [INF] Executed endpoint 'Acceloka.API.Controllers.TicketsController.GetAvailableTicket (Acceloka.API)'
+2026-02-28 10:58:38.058 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5209/api/v1/get-available-ticket?PageNumber=1&PageSize=10 - 200 null application/json; charset=utf-8 42.842ms
+2026-02-28 11:01:40.387 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5209/api/v1/get-available-ticket?PageNumber=1&PageSize=10 - null null
+2026-02-28 11:01:40.387 +07:00 [INF] CORS policy execution successful.
+2026-02-28 11:01:40.387 +07:00 [INF] CORS policy execution successful.
+2026-02-28 11:01:40.387 +07:00 [INF] Executing endpoint 'Acceloka.API.Controllers.TicketsController.GetAvailableTicket (Acceloka.API)'
+2026-02-28 11:01:40.388 +07:00 [INF] Route matched with {action = "GetAvailableTicket", controller = "Tickets"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAvailableTicket(Acceloka.API.Features.Tickets.Queries.AvailableTicketsQuery) on controller Acceloka.API.Controllers.TicketsController (Acceloka.API).
+2026-02-28 11:01:40.457 +07:00 [INF] Executed DbCommand (18ms) [Parameters=[@p='?' (DbType = Int32), @p1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[CategoryName], [t].[TicketCode], [t].[TicketName], [t].[EventDate], [t].[Price], [t].[Quota] AS [RemainingQuota]
+FROM [Tickets] AS [t]
+WHERE [t].[IsActive] = CAST(1 AS bit) AND [t].[Quota] > 0
+ORDER BY [t].[TicketCode]
+OFFSET @p ROWS FETCH NEXT @p1 ROWS ONLY
+2026-02-28 11:01:40.458 +07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Acceloka.API.Features.Tickets.Queries.AvailableTicketsResponse, Acceloka.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-02-28 11:01:40.459 +07:00 [INF] Executed action Acceloka.API.Controllers.TicketsController.GetAvailableTicket (Acceloka.API) in 70.4795ms
+2026-02-28 11:01:40.459 +07:00 [INF] Executed endpoint 'Acceloka.API.Controllers.TicketsController.GetAvailableTicket (Acceloka.API)'
+2026-02-28 11:01:40.459 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5209/api/v1/get-available-ticket?PageNumber=1&PageSize=10 - 200 null application/json; charset=utf-8 72.5484ms
+2026-02-28 11:01:40.461 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5209/api/v1/get-available-ticket?PageNumber=1&PageSize=10 - null null
+2026-02-28 11:01:40.461 +07:00 [INF] CORS policy execution successful.
+2026-02-28 11:01:40.461 +07:00 [INF] CORS policy execution successful.
+2026-02-28 11:01:40.461 +07:00 [INF] Executing endpoint 'Acceloka.API.Controllers.TicketsController.GetAvailableTicket (Acceloka.API)'
+2026-02-28 11:01:40.461 +07:00 [INF] Route matched with {action = "GetAvailableTicket", controller = "Tickets"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAvailableTicket(Acceloka.API.Features.Tickets.Queries.AvailableTicketsQuery) on controller Acceloka.API.Controllers.TicketsController (Acceloka.API).
+2026-02-28 11:01:40.464 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[@p='?' (DbType = Int32), @p1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[CategoryName], [t].[TicketCode], [t].[TicketName], [t].[EventDate], [t].[Price], [t].[Quota] AS [RemainingQuota]
+FROM [Tickets] AS [t]
+WHERE [t].[IsActive] = CAST(1 AS bit) AND [t].[Quota] > 0
+ORDER BY [t].[TicketCode]
+OFFSET @p ROWS FETCH NEXT @p1 ROWS ONLY
+2026-02-28 11:01:40.465 +07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Acceloka.API.Features.Tickets.Queries.AvailableTicketsResponse, Acceloka.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-02-28 11:01:40.465 +07:00 [INF] Executed action Acceloka.API.Controllers.TicketsController.GetAvailableTicket (Acceloka.API) in 4.136ms
+2026-02-28 11:01:40.465 +07:00 [INF] Executed endpoint 'Acceloka.API.Controllers.TicketsController.GetAvailableTicket (Acceloka.API)'
+2026-02-28 11:01:40.466 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5209/api/v1/get-available-ticket?PageNumber=1&PageSize=10 - 200 null application/json; charset=utf-8 4.9675ms
+2026-02-28 11:18:46.195 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5209/api/v1/get-available-ticket?PageNumber=1&PageSize=10 - null null
+2026-02-28 11:18:46.195 +07:00 [INF] CORS policy execution successful.
+2026-02-28 11:18:46.195 +07:00 [INF] CORS policy execution successful.
+2026-02-28 11:18:46.196 +07:00 [INF] Executing endpoint 'Acceloka.API.Controllers.TicketsController.GetAvailableTicket (Acceloka.API)'
+2026-02-28 11:18:46.196 +07:00 [INF] Route matched with {action = "GetAvailableTicket", controller = "Tickets"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAvailableTicket(Acceloka.API.Features.Tickets.Queries.AvailableTicketsQuery) on controller Acceloka.API.Controllers.TicketsController (Acceloka.API).
+2026-02-28 11:18:46.291 +07:00 [INF] Executed DbCommand (21ms) [Parameters=[@p='?' (DbType = Int32), @p1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[CategoryName], [t].[TicketCode], [t].[TicketName], [t].[EventDate], [t].[Price], [t].[Quota] AS [RemainingQuota]
+FROM [Tickets] AS [t]
+WHERE [t].[IsActive] = CAST(1 AS bit) AND [t].[Quota] > 0
+ORDER BY [t].[TicketCode]
+OFFSET @p ROWS FETCH NEXT @p1 ROWS ONLY
+2026-02-28 11:18:46.293 +07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Acceloka.API.Features.Tickets.Queries.AvailableTicketsResponse, Acceloka.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-02-28 11:18:46.293 +07:00 [INF] Executed action Acceloka.API.Controllers.TicketsController.GetAvailableTicket (Acceloka.API) in 97.2537ms
+2026-02-28 11:18:46.293 +07:00 [INF] Executed endpoint 'Acceloka.API.Controllers.TicketsController.GetAvailableTicket (Acceloka.API)'
+2026-02-28 11:18:46.293 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5209/api/v1/get-available-ticket?PageNumber=1&PageSize=10 - 200 null application/json; charset=utf-8 98.2909ms
+2026-02-28 11:39:11.392 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5209/api/v1/get-available-ticket?PageNumber=1&PageSize=10 - null null
+2026-02-28 11:39:11.393 +07:00 [INF] CORS policy execution successful.
+2026-02-28 11:39:11.393 +07:00 [INF] CORS policy execution successful.
+2026-02-28 11:39:11.393 +07:00 [INF] Executing endpoint 'Acceloka.API.Controllers.TicketsController.GetAvailableTicket (Acceloka.API)'
+2026-02-28 11:39:11.393 +07:00 [INF] Route matched with {action = "GetAvailableTicket", controller = "Tickets"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAvailableTicket(Acceloka.API.Features.Tickets.Queries.AvailableTicketsQuery) on controller Acceloka.API.Controllers.TicketsController (Acceloka.API).
+2026-02-28 11:39:11.466 +07:00 [INF] Executed DbCommand (13ms) [Parameters=[@p='?' (DbType = Int32), @p1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[CategoryName], [t].[TicketCode], [t].[TicketName], [t].[EventDate], [t].[Price], [t].[Quota] AS [RemainingQuota]
+FROM [Tickets] AS [t]
+WHERE [t].[IsActive] = CAST(1 AS bit) AND [t].[Quota] > 0
+ORDER BY [t].[TicketCode]
+OFFSET @p ROWS FETCH NEXT @p1 ROWS ONLY
+2026-02-28 11:39:11.467 +07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Acceloka.API.Features.Tickets.Queries.AvailableTicketsResponse, Acceloka.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-02-28 11:39:11.467 +07:00 [INF] Executed action Acceloka.API.Controllers.TicketsController.GetAvailableTicket (Acceloka.API) in 73.1743ms
+2026-02-28 11:39:11.467 +07:00 [INF] Executed endpoint 'Acceloka.API.Controllers.TicketsController.GetAvailableTicket (Acceloka.API)'
+2026-02-28 11:39:11.467 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5209/api/v1/get-available-ticket?PageNumber=1&PageSize=10 - 200 null application/json; charset=utf-8 74.4192ms
+2026-02-28 11:39:11.991 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5209/api/v1/get-available-ticket?PageNumber=1&PageSize=10 - null null
+2026-02-28 11:39:11.992 +07:00 [INF] CORS policy execution successful.
+2026-02-28 11:39:11.992 +07:00 [INF] CORS policy execution successful.
+2026-02-28 11:39:11.992 +07:00 [INF] Executing endpoint 'Acceloka.API.Controllers.TicketsController.GetAvailableTicket (Acceloka.API)'
+2026-02-28 11:39:11.992 +07:00 [INF] Route matched with {action = "GetAvailableTicket", controller = "Tickets"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAvailableTicket(Acceloka.API.Features.Tickets.Queries.AvailableTicketsQuery) on controller Acceloka.API.Controllers.TicketsController (Acceloka.API).
+2026-02-28 11:39:11.999 +07:00 [INF] Executed DbCommand (5ms) [Parameters=[@p='?' (DbType = Int32), @p1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[CategoryName], [t].[TicketCode], [t].[TicketName], [t].[EventDate], [t].[Price], [t].[Quota] AS [RemainingQuota]
+FROM [Tickets] AS [t]
+WHERE [t].[IsActive] = CAST(1 AS bit) AND [t].[Quota] > 0
+ORDER BY [t].[TicketCode]
+OFFSET @p ROWS FETCH NEXT @p1 ROWS ONLY
+2026-02-28 11:39:11.999 +07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Acceloka.API.Features.Tickets.Queries.AvailableTicketsResponse, Acceloka.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-02-28 11:39:11.999 +07:00 [INF] Executed action Acceloka.API.Controllers.TicketsController.GetAvailableTicket (Acceloka.API) in 7.6393ms
+2026-02-28 11:39:11.999 +07:00 [INF] Executed endpoint 'Acceloka.API.Controllers.TicketsController.GetAvailableTicket (Acceloka.API)'
+2026-02-28 11:39:12.000 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5209/api/v1/get-available-ticket?PageNumber=1&PageSize=10 - 200 null application/json; charset=utf-8 8.2763ms
+2026-02-28 11:40:07.998 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5209/api/v1/get-available-ticket?PageNumber=1&PageSize=10 - null null
+2026-02-28 11:40:07.999 +07:00 [INF] CORS policy execution successful.
+2026-02-28 11:40:07.999 +07:00 [INF] CORS policy execution successful.
+2026-02-28 11:40:07.999 +07:00 [INF] Executing endpoint 'Acceloka.API.Controllers.TicketsController.GetAvailableTicket (Acceloka.API)'
+2026-02-28 11:40:07.999 +07:00 [INF] Route matched with {action = "GetAvailableTicket", controller = "Tickets"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAvailableTicket(Acceloka.API.Features.Tickets.Queries.AvailableTicketsQuery) on controller Acceloka.API.Controllers.TicketsController (Acceloka.API).
+2026-02-28 11:40:08.015 +07:00 [INF] Executed DbCommand (12ms) [Parameters=[@p='?' (DbType = Int32), @p1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[CategoryName], [t].[TicketCode], [t].[TicketName], [t].[EventDate], [t].[Price], [t].[Quota] AS [RemainingQuota]
+FROM [Tickets] AS [t]
+WHERE [t].[IsActive] = CAST(1 AS bit) AND [t].[Quota] > 0
+ORDER BY [t].[TicketCode]
+OFFSET @p ROWS FETCH NEXT @p1 ROWS ONLY
+2026-02-28 11:40:08.015 +07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Acceloka.API.Features.Tickets.Queries.AvailableTicketsResponse, Acceloka.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-02-28 11:40:08.015 +07:00 [INF] Executed action Acceloka.API.Controllers.TicketsController.GetAvailableTicket (Acceloka.API) in 16.3991ms
+2026-02-28 11:40:08.015 +07:00 [INF] Executed endpoint 'Acceloka.API.Controllers.TicketsController.GetAvailableTicket (Acceloka.API)'
+2026-02-28 11:40:08.015 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5209/api/v1/get-available-ticket?PageNumber=1&PageSize=10 - 200 null application/json; charset=utf-8 17.7385ms
+2026-02-28 11:40:15.304 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5209/api/v1/get-available-ticket?PageNumber=1&PageSize=10 - null null
+2026-02-28 11:40:15.304 +07:00 [INF] CORS policy execution successful.
+2026-02-28 11:40:15.304 +07:00 [INF] CORS policy execution successful.
+2026-02-28 11:40:15.304 +07:00 [INF] Executing endpoint 'Acceloka.API.Controllers.TicketsController.GetAvailableTicket (Acceloka.API)'
+2026-02-28 11:40:15.304 +07:00 [INF] Route matched with {action = "GetAvailableTicket", controller = "Tickets"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAvailableTicket(Acceloka.API.Features.Tickets.Queries.AvailableTicketsQuery) on controller Acceloka.API.Controllers.TicketsController (Acceloka.API).
+2026-02-28 11:40:15.311 +07:00 [INF] Executed DbCommand (3ms) [Parameters=[@p='?' (DbType = Int32), @p1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[CategoryName], [t].[TicketCode], [t].[TicketName], [t].[EventDate], [t].[Price], [t].[Quota] AS [RemainingQuota]
+FROM [Tickets] AS [t]
+WHERE [t].[IsActive] = CAST(1 AS bit) AND [t].[Quota] > 0
+ORDER BY [t].[TicketCode]
+OFFSET @p ROWS FETCH NEXT @p1 ROWS ONLY
+2026-02-28 11:40:15.312 +07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Acceloka.API.Features.Tickets.Queries.AvailableTicketsResponse, Acceloka.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-02-28 11:40:15.312 +07:00 [INF] Executed action Acceloka.API.Controllers.TicketsController.GetAvailableTicket (Acceloka.API) in 7.4893ms
+2026-02-28 11:40:15.312 +07:00 [INF] Executed endpoint 'Acceloka.API.Controllers.TicketsController.GetAvailableTicket (Acceloka.API)'
+2026-02-28 11:40:15.312 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5209/api/v1/get-available-ticket?PageNumber=1&PageSize=10 - 200 null application/json; charset=utf-8 8.4461ms
+2026-02-28 11:40:20.777 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5209/api/v1/get-available-ticket?PageNumber=2&PageSize=10 - null null
+2026-02-28 11:40:20.777 +07:00 [INF] CORS policy execution successful.
+2026-02-28 11:40:20.778 +07:00 [INF] CORS policy execution successful.
+2026-02-28 11:40:20.778 +07:00 [INF] Executing endpoint 'Acceloka.API.Controllers.TicketsController.GetAvailableTicket (Acceloka.API)'
+2026-02-28 11:40:20.778 +07:00 [INF] Route matched with {action = "GetAvailableTicket", controller = "Tickets"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAvailableTicket(Acceloka.API.Features.Tickets.Queries.AvailableTicketsQuery) on controller Acceloka.API.Controllers.TicketsController (Acceloka.API).
+2026-02-28 11:40:20.790 +07:00 [INF] Executed DbCommand (8ms) [Parameters=[@p='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[CategoryName], [t].[TicketCode], [t].[TicketName], [t].[EventDate], [t].[Price], [t].[Quota] AS [RemainingQuota]
+FROM [Tickets] AS [t]
+WHERE [t].[IsActive] = CAST(1 AS bit) AND [t].[Quota] > 0
+ORDER BY [t].[TicketCode]
+OFFSET @p ROWS FETCH NEXT @p ROWS ONLY
+2026-02-28 11:40:20.791 +07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Acceloka.API.Features.Tickets.Queries.AvailableTicketsResponse, Acceloka.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-02-28 11:40:20.791 +07:00 [INF] Executed action Acceloka.API.Controllers.TicketsController.GetAvailableTicket (Acceloka.API) in 13.0494ms
+2026-02-28 11:40:20.791 +07:00 [INF] Executed endpoint 'Acceloka.API.Controllers.TicketsController.GetAvailableTicket (Acceloka.API)'
+2026-02-28 11:40:20.791 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5209/api/v1/get-available-ticket?PageNumber=2&PageSize=10 - 200 null application/json; charset=utf-8 13.4729ms
+2026-02-28 11:40:22.463 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5209/api/v1/get-available-ticket?PageNumber=1&PageSize=10 - null null
+2026-02-28 11:40:22.466 +07:00 [INF] CORS policy execution successful.
+2026-02-28 11:40:22.466 +07:00 [INF] CORS policy execution successful.
+2026-02-28 11:40:22.466 +07:00 [INF] Executing endpoint 'Acceloka.API.Controllers.TicketsController.GetAvailableTicket (Acceloka.API)'
+2026-02-28 11:40:22.466 +07:00 [INF] Route matched with {action = "GetAvailableTicket", controller = "Tickets"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAvailableTicket(Acceloka.API.Features.Tickets.Queries.AvailableTicketsQuery) on controller Acceloka.API.Controllers.TicketsController (Acceloka.API).
+2026-02-28 11:40:22.469 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[@p='?' (DbType = Int32), @p1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[CategoryName], [t].[TicketCode], [t].[TicketName], [t].[EventDate], [t].[Price], [t].[Quota] AS [RemainingQuota]
+FROM [Tickets] AS [t]
+WHERE [t].[IsActive] = CAST(1 AS bit) AND [t].[Quota] > 0
+ORDER BY [t].[TicketCode]
+OFFSET @p ROWS FETCH NEXT @p1 ROWS ONLY
+2026-02-28 11:40:22.469 +07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Acceloka.API.Features.Tickets.Queries.AvailableTicketsResponse, Acceloka.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-02-28 11:40:22.469 +07:00 [INF] Executed action Acceloka.API.Controllers.TicketsController.GetAvailableTicket (Acceloka.API) in 3.4556ms
+2026-02-28 11:40:22.469 +07:00 [INF] Executed endpoint 'Acceloka.API.Controllers.TicketsController.GetAvailableTicket (Acceloka.API)'
+2026-02-28 11:40:22.470 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5209/api/v1/get-available-ticket?PageNumber=1&PageSize=10 - 200 null application/json; charset=utf-8 6.4283ms
+2026-02-28 11:45:35.576 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5209/api/v1/get-available-ticket?PageNumber=1&PageSize=10 - null null
+2026-02-28 11:45:35.576 +07:00 [INF] CORS policy execution successful.
+2026-02-28 11:45:35.576 +07:00 [INF] CORS policy execution successful.
+2026-02-28 11:45:35.576 +07:00 [INF] Executing endpoint 'Acceloka.API.Controllers.TicketsController.GetAvailableTicket (Acceloka.API)'
+2026-02-28 11:45:35.577 +07:00 [INF] Route matched with {action = "GetAvailableTicket", controller = "Tickets"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAvailableTicket(Acceloka.API.Features.Tickets.Queries.AvailableTicketsQuery) on controller Acceloka.API.Controllers.TicketsController (Acceloka.API).
+2026-02-28 11:45:35.590 +07:00 [INF] Executed DbCommand (10ms) [Parameters=[@p='?' (DbType = Int32), @p1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[CategoryName], [t].[TicketCode], [t].[TicketName], [t].[EventDate], [t].[Price], [t].[Quota] AS [RemainingQuota]
+FROM [Tickets] AS [t]
+WHERE [t].[IsActive] = CAST(1 AS bit) AND [t].[Quota] > 0
+ORDER BY [t].[TicketCode]
+OFFSET @p ROWS FETCH NEXT @p1 ROWS ONLY
+2026-02-28 11:45:35.590 +07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Acceloka.API.Features.Tickets.Queries.AvailableTicketsResponse, Acceloka.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-02-28 11:45:35.590 +07:00 [INF] Executed action Acceloka.API.Controllers.TicketsController.GetAvailableTicket (Acceloka.API) in 13.4054ms
+2026-02-28 11:45:35.590 +07:00 [INF] Executed endpoint 'Acceloka.API.Controllers.TicketsController.GetAvailableTicket (Acceloka.API)'
+2026-02-28 11:45:35.590 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5209/api/v1/get-available-ticket?PageNumber=1&PageSize=10 - 200 null application/json; charset=utf-8 14.051ms
+2026-02-28 11:45:36.579 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5209/api/v1/get-available-ticket?PageNumber=1&PageSize=10 - null null
+2026-02-28 11:45:36.579 +07:00 [INF] CORS policy execution successful.
+2026-02-28 11:45:36.579 +07:00 [INF] CORS policy execution successful.
+2026-02-28 11:45:36.579 +07:00 [INF] Executing endpoint 'Acceloka.API.Controllers.TicketsController.GetAvailableTicket (Acceloka.API)'
+2026-02-28 11:45:36.579 +07:00 [INF] Route matched with {action = "GetAvailableTicket", controller = "Tickets"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAvailableTicket(Acceloka.API.Features.Tickets.Queries.AvailableTicketsQuery) on controller Acceloka.API.Controllers.TicketsController (Acceloka.API).
+2026-02-28 11:45:36.583 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[@p='?' (DbType = Int32), @p1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[CategoryName], [t].[TicketCode], [t].[TicketName], [t].[EventDate], [t].[Price], [t].[Quota] AS [RemainingQuota]
+FROM [Tickets] AS [t]
+WHERE [t].[IsActive] = CAST(1 AS bit) AND [t].[Quota] > 0
+ORDER BY [t].[TicketCode]
+OFFSET @p ROWS FETCH NEXT @p1 ROWS ONLY
+2026-02-28 11:45:36.584 +07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Acceloka.API.Features.Tickets.Queries.AvailableTicketsResponse, Acceloka.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-02-28 11:45:36.584 +07:00 [INF] Executed action Acceloka.API.Controllers.TicketsController.GetAvailableTicket (Acceloka.API) in 4.5502ms
+2026-02-28 11:45:36.584 +07:00 [INF] Executed endpoint 'Acceloka.API.Controllers.TicketsController.GetAvailableTicket (Acceloka.API)'
+2026-02-28 11:45:36.584 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5209/api/v1/get-available-ticket?PageNumber=1&PageSize=10 - 200 null application/json; charset=utf-8 4.909ms
+2026-02-28 11:45:37.084 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5209/api/v1/get-available-ticket?PageNumber=1&PageSize=10 - null null
+2026-02-28 11:45:37.084 +07:00 [INF] CORS policy execution successful.
+2026-02-28 11:45:37.084 +07:00 [INF] CORS policy execution successful.
+2026-02-28 11:45:37.084 +07:00 [INF] Executing endpoint 'Acceloka.API.Controllers.TicketsController.GetAvailableTicket (Acceloka.API)'
+2026-02-28 11:45:37.085 +07:00 [INF] Route matched with {action = "GetAvailableTicket", controller = "Tickets"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAvailableTicket(Acceloka.API.Features.Tickets.Queries.AvailableTicketsQuery) on controller Acceloka.API.Controllers.TicketsController (Acceloka.API).
+2026-02-28 11:45:37.087 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[@p='?' (DbType = Int32), @p1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[CategoryName], [t].[TicketCode], [t].[TicketName], [t].[EventDate], [t].[Price], [t].[Quota] AS [RemainingQuota]
+FROM [Tickets] AS [t]
+WHERE [t].[IsActive] = CAST(1 AS bit) AND [t].[Quota] > 0
+ORDER BY [t].[TicketCode]
+OFFSET @p ROWS FETCH NEXT @p1 ROWS ONLY
+2026-02-28 11:45:37.087 +07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Acceloka.API.Features.Tickets.Queries.AvailableTicketsResponse, Acceloka.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-02-28 11:45:37.087 +07:00 [INF] Executed action Acceloka.API.Controllers.TicketsController.GetAvailableTicket (Acceloka.API) in 2.518ms
+2026-02-28 11:45:37.087 +07:00 [INF] Executed endpoint 'Acceloka.API.Controllers.TicketsController.GetAvailableTicket (Acceloka.API)'
+2026-02-28 11:45:37.087 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5209/api/v1/get-available-ticket?PageNumber=1&PageSize=10 - 200 null application/json; charset=utf-8 2.9985ms
+2026-02-28 11:45:37.542 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5209/api/v1/get-available-ticket?PageNumber=1&PageSize=10 - null null
+2026-02-28 11:45:37.542 +07:00 [INF] CORS policy execution successful.
+2026-02-28 11:45:37.542 +07:00 [INF] CORS policy execution successful.
+2026-02-28 11:45:37.542 +07:00 [INF] Executing endpoint 'Acceloka.API.Controllers.TicketsController.GetAvailableTicket (Acceloka.API)'
+2026-02-28 11:45:37.542 +07:00 [INF] Route matched with {action = "GetAvailableTicket", controller = "Tickets"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAvailableTicket(Acceloka.API.Features.Tickets.Queries.AvailableTicketsQuery) on controller Acceloka.API.Controllers.TicketsController (Acceloka.API).
+2026-02-28 11:45:37.544 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[@p='?' (DbType = Int32), @p1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[CategoryName], [t].[TicketCode], [t].[TicketName], [t].[EventDate], [t].[Price], [t].[Quota] AS [RemainingQuota]
+FROM [Tickets] AS [t]
+WHERE [t].[IsActive] = CAST(1 AS bit) AND [t].[Quota] > 0
+ORDER BY [t].[TicketCode]
+OFFSET @p ROWS FETCH NEXT @p1 ROWS ONLY
+2026-02-28 11:45:37.544 +07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Acceloka.API.Features.Tickets.Queries.AvailableTicketsResponse, Acceloka.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-02-28 11:45:37.544 +07:00 [INF] Executed action Acceloka.API.Controllers.TicketsController.GetAvailableTicket (Acceloka.API) in 1.9804ms
+2026-02-28 11:45:37.544 +07:00 [INF] Executed endpoint 'Acceloka.API.Controllers.TicketsController.GetAvailableTicket (Acceloka.API)'
+2026-02-28 11:45:37.545 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5209/api/v1/get-available-ticket?PageNumber=1&PageSize=10 - 200 null application/json; charset=utf-8 2.3756ms
+2026-02-28 11:45:41.124 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5209/api/v1/get-available-ticket?PageNumber=1&PageSize=10&MaxPrice=1 - null null
+2026-02-28 11:45:41.124 +07:00 [INF] CORS policy execution successful.
+2026-02-28 11:45:41.124 +07:00 [INF] CORS policy execution successful.
+2026-02-28 11:45:41.124 +07:00 [INF] Executing endpoint 'Acceloka.API.Controllers.TicketsController.GetAvailableTicket (Acceloka.API)'
+2026-02-28 11:45:41.124 +07:00 [INF] Route matched with {action = "GetAvailableTicket", controller = "Tickets"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAvailableTicket(Acceloka.API.Features.Tickets.Queries.AvailableTicketsQuery) on controller Acceloka.API.Controllers.TicketsController (Acceloka.API).
+2026-02-28 11:45:41.163 +07:00 [INF] Executed DbCommand (18ms) [Parameters=[@request_MaxPrice_Value='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p='?' (DbType = Int32), @p2='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[CategoryName], [t].[TicketCode], [t].[TicketName], [t].[EventDate], [t].[Price], [t].[Quota] AS [RemainingQuota]
+FROM [Tickets] AS [t]
+WHERE [t].[IsActive] = CAST(1 AS bit) AND [t].[Quota] > 0 AND [t].[Price] <= @request_MaxPrice_Value
+ORDER BY [t].[TicketCode]
+OFFSET @p ROWS FETCH NEXT @p2 ROWS ONLY
+2026-02-28 11:45:41.164 +07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Acceloka.API.Features.Tickets.Queries.AvailableTicketsResponse, Acceloka.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-02-28 11:45:41.164 +07:00 [INF] Executed action Acceloka.API.Controllers.TicketsController.GetAvailableTicket (Acceloka.API) in 39.8706ms
+2026-02-28 11:45:41.164 +07:00 [INF] Executed endpoint 'Acceloka.API.Controllers.TicketsController.GetAvailableTicket (Acceloka.API)'
+2026-02-28 11:45:41.164 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5209/api/v1/get-available-ticket?PageNumber=1&PageSize=10&MaxPrice=1 - 200 null application/json; charset=utf-8 40.3068ms
+2026-02-28 11:45:46.513 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5209/api/v1/get-available-ticket?PageNumber=1&PageSize=10&MaxPrice=0 - null null
+2026-02-28 11:45:46.513 +07:00 [INF] CORS policy execution successful.
+2026-02-28 11:45:46.513 +07:00 [INF] CORS policy execution successful.
+2026-02-28 11:45:46.513 +07:00 [INF] Executing endpoint 'Acceloka.API.Controllers.TicketsController.GetAvailableTicket (Acceloka.API)'
+2026-02-28 11:45:46.513 +07:00 [INF] Route matched with {action = "GetAvailableTicket", controller = "Tickets"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAvailableTicket(Acceloka.API.Features.Tickets.Queries.AvailableTicketsQuery) on controller Acceloka.API.Controllers.TicketsController (Acceloka.API).
+2026-02-28 11:45:46.521 +07:00 [INF] Executed DbCommand (2ms) [Parameters=[@request_MaxPrice_Value='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p='?' (DbType = Int32), @p2='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[CategoryName], [t].[TicketCode], [t].[TicketName], [t].[EventDate], [t].[Price], [t].[Quota] AS [RemainingQuota]
+FROM [Tickets] AS [t]
+WHERE [t].[IsActive] = CAST(1 AS bit) AND [t].[Quota] > 0 AND [t].[Price] <= @request_MaxPrice_Value
+ORDER BY [t].[TicketCode]
+OFFSET @p ROWS FETCH NEXT @p2 ROWS ONLY
+2026-02-28 11:45:46.522 +07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Acceloka.API.Features.Tickets.Queries.AvailableTicketsResponse, Acceloka.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-02-28 11:45:46.522 +07:00 [INF] Executed action Acceloka.API.Controllers.TicketsController.GetAvailableTicket (Acceloka.API) in 8.4644ms
+2026-02-28 11:45:46.522 +07:00 [INF] Executed endpoint 'Acceloka.API.Controllers.TicketsController.GetAvailableTicket (Acceloka.API)'
+2026-02-28 11:45:46.522 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5209/api/v1/get-available-ticket?PageNumber=1&PageSize=10&MaxPrice=0 - 200 null application/json; charset=utf-8 10.8338ms
+2026-02-28 11:45:48.809 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5209/api/v1/get-available-ticket?PageNumber=1&PageSize=10 - null null
+2026-02-28 11:45:48.809 +07:00 [INF] CORS policy execution successful.
+2026-02-28 11:45:48.809 +07:00 [INF] CORS policy execution successful.
+2026-02-28 11:45:48.809 +07:00 [INF] Executing endpoint 'Acceloka.API.Controllers.TicketsController.GetAvailableTicket (Acceloka.API)'
+2026-02-28 11:45:48.809 +07:00 [INF] Route matched with {action = "GetAvailableTicket", controller = "Tickets"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAvailableTicket(Acceloka.API.Features.Tickets.Queries.AvailableTicketsQuery) on controller Acceloka.API.Controllers.TicketsController (Acceloka.API).
+2026-02-28 11:45:48.813 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[@p='?' (DbType = Int32), @p1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[CategoryName], [t].[TicketCode], [t].[TicketName], [t].[EventDate], [t].[Price], [t].[Quota] AS [RemainingQuota]
+FROM [Tickets] AS [t]
+WHERE [t].[IsActive] = CAST(1 AS bit) AND [t].[Quota] > 0
+ORDER BY [t].[TicketCode]
+OFFSET @p ROWS FETCH NEXT @p1 ROWS ONLY
+2026-02-28 11:45:48.814 +07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Acceloka.API.Features.Tickets.Queries.AvailableTicketsResponse, Acceloka.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-02-28 11:45:48.814 +07:00 [INF] Executed action Acceloka.API.Controllers.TicketsController.GetAvailableTicket (Acceloka.API) in 5.1011ms
+2026-02-28 11:45:48.814 +07:00 [INF] Executed endpoint 'Acceloka.API.Controllers.TicketsController.GetAvailableTicket (Acceloka.API)'
+2026-02-28 11:45:48.814 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5209/api/v1/get-available-ticket?PageNumber=1&PageSize=10 - 200 null application/json; charset=utf-8 5.4888ms
+2026-02-28 11:45:52.857 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5209/api/v1/get-available-ticket?PageNumber=1&PageSize=10&CategoryName=Bioskop - null null
+2026-02-28 11:45:52.857 +07:00 [INF] CORS policy execution successful.
+2026-02-28 11:45:52.857 +07:00 [INF] CORS policy execution successful.
+2026-02-28 11:45:52.857 +07:00 [INF] Executing endpoint 'Acceloka.API.Controllers.TicketsController.GetAvailableTicket (Acceloka.API)'
+2026-02-28 11:45:52.857 +07:00 [INF] Route matched with {action = "GetAvailableTicket", controller = "Tickets"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAvailableTicket(Acceloka.API.Features.Tickets.Queries.AvailableTicketsQuery) on controller Acceloka.API.Controllers.TicketsController (Acceloka.API).
+2026-02-28 11:45:52.866 +07:00 [INF] Executed DbCommand (8ms) [Parameters=[@request_CategoryName_contains='?' (Size = 4000), @p='?' (DbType = Int32), @p2='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[CategoryName], [t].[TicketCode], [t].[TicketName], [t].[EventDate], [t].[Price], [t].[Quota] AS [RemainingQuota]
+FROM [Tickets] AS [t]
+WHERE [t].[IsActive] = CAST(1 AS bit) AND [t].[Quota] > 0 AND [t].[CategoryName] LIKE @request_CategoryName_contains ESCAPE N'\'
+ORDER BY [t].[TicketCode]
+OFFSET @p ROWS FETCH NEXT @p2 ROWS ONLY
+2026-02-28 11:45:52.866 +07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Acceloka.API.Features.Tickets.Queries.AvailableTicketsResponse, Acceloka.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-02-28 11:45:52.866 +07:00 [INF] Executed action Acceloka.API.Controllers.TicketsController.GetAvailableTicket (Acceloka.API) in 9.1173ms
+2026-02-28 11:45:52.866 +07:00 [INF] Executed endpoint 'Acceloka.API.Controllers.TicketsController.GetAvailableTicket (Acceloka.API)'
+2026-02-28 11:45:52.866 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5209/api/v1/get-available-ticket?PageNumber=1&PageSize=10&CategoryName=Bioskop - 200 null application/json; charset=utf-8 9.4931ms
+2026-02-28 11:46:01.497 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5209/api/v1/get-available-ticket?PageNumber=1&PageSize=10&OrderState=desc - null null
+2026-02-28 11:46:01.498 +07:00 [INF] CORS policy execution successful.
+2026-02-28 11:46:01.498 +07:00 [INF] CORS policy execution successful.
+2026-02-28 11:46:01.498 +07:00 [INF] Executing endpoint 'Acceloka.API.Controllers.TicketsController.GetAvailableTicket (Acceloka.API)'
+2026-02-28 11:46:01.498 +07:00 [INF] Route matched with {action = "GetAvailableTicket", controller = "Tickets"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAvailableTicket(Acceloka.API.Features.Tickets.Queries.AvailableTicketsQuery) on controller Acceloka.API.Controllers.TicketsController (Acceloka.API).
+2026-02-28 11:46:01.517 +07:00 [INF] Executed DbCommand (10ms) [Parameters=[@p='?' (DbType = Int32), @p1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[CategoryName], [t].[TicketCode], [t].[TicketName], [t].[EventDate], [t].[Price], [t].[Quota] AS [RemainingQuota]
+FROM [Tickets] AS [t]
+WHERE [t].[IsActive] = CAST(1 AS bit) AND [t].[Quota] > 0
+ORDER BY [t].[TicketCode] DESC
+OFFSET @p ROWS FETCH NEXT @p1 ROWS ONLY
+2026-02-28 11:46:01.517 +07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Acceloka.API.Features.Tickets.Queries.AvailableTicketsResponse, Acceloka.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-02-28 11:46:01.517 +07:00 [INF] Executed action Acceloka.API.Controllers.TicketsController.GetAvailableTicket (Acceloka.API) in 19.1271ms
+2026-02-28 11:46:01.517 +07:00 [INF] Executed endpoint 'Acceloka.API.Controllers.TicketsController.GetAvailableTicket (Acceloka.API)'
+2026-02-28 11:46:01.517 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5209/api/v1/get-available-ticket?PageNumber=1&PageSize=10&OrderState=desc - 200 null application/json; charset=utf-8 19.7903ms
+2026-02-28 11:47:44.446 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5209/api/v1/get-available-ticket?PageNumber=1&PageSize=10 - null null
+2026-02-28 11:47:44.447 +07:00 [INF] CORS policy execution successful.
+2026-02-28 11:47:44.447 +07:00 [INF] CORS policy execution successful.
+2026-02-28 11:47:44.447 +07:00 [INF] Executing endpoint 'Acceloka.API.Controllers.TicketsController.GetAvailableTicket (Acceloka.API)'
+2026-02-28 11:47:44.447 +07:00 [INF] Route matched with {action = "GetAvailableTicket", controller = "Tickets"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAvailableTicket(Acceloka.API.Features.Tickets.Queries.AvailableTicketsQuery) on controller Acceloka.API.Controllers.TicketsController (Acceloka.API).
+2026-02-28 11:47:44.457 +07:00 [INF] Executed DbCommand (8ms) [Parameters=[@p='?' (DbType = Int32), @p1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[CategoryName], [t].[TicketCode], [t].[TicketName], [t].[EventDate], [t].[Price], [t].[Quota] AS [RemainingQuota]
+FROM [Tickets] AS [t]
+WHERE [t].[IsActive] = CAST(1 AS bit) AND [t].[Quota] > 0
+ORDER BY [t].[TicketCode]
+OFFSET @p ROWS FETCH NEXT @p1 ROWS ONLY
+2026-02-28 11:47:44.457 +07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Acceloka.API.Features.Tickets.Queries.AvailableTicketsResponse, Acceloka.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-02-28 11:47:44.457 +07:00 [INF] Executed action Acceloka.API.Controllers.TicketsController.GetAvailableTicket (Acceloka.API) in 10.2495ms
+2026-02-28 11:47:44.457 +07:00 [INF] Executed endpoint 'Acceloka.API.Controllers.TicketsController.GetAvailableTicket (Acceloka.API)'
+2026-02-28 11:47:44.457 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5209/api/v1/get-available-ticket?PageNumber=1&PageSize=10 - 200 null application/json; charset=utf-8 10.9698ms
+2026-02-28 11:48:00.046 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5209/api/v1/get-available-ticket?PageNumber=1&PageSize=10 - null null
+2026-02-28 11:48:00.046 +07:00 [INF] CORS policy execution successful.
+2026-02-28 11:48:00.046 +07:00 [INF] CORS policy execution successful.
+2026-02-28 11:48:00.046 +07:00 [INF] Executing endpoint 'Acceloka.API.Controllers.TicketsController.GetAvailableTicket (Acceloka.API)'
+2026-02-28 11:48:00.046 +07:00 [INF] Route matched with {action = "GetAvailableTicket", controller = "Tickets"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAvailableTicket(Acceloka.API.Features.Tickets.Queries.AvailableTicketsQuery) on controller Acceloka.API.Controllers.TicketsController (Acceloka.API).
+2026-02-28 11:48:00.049 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[@p='?' (DbType = Int32), @p1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[CategoryName], [t].[TicketCode], [t].[TicketName], [t].[EventDate], [t].[Price], [t].[Quota] AS [RemainingQuota]
+FROM [Tickets] AS [t]
+WHERE [t].[IsActive] = CAST(1 AS bit) AND [t].[Quota] > 0
+ORDER BY [t].[TicketCode]
+OFFSET @p ROWS FETCH NEXT @p1 ROWS ONLY
+2026-02-28 11:48:00.049 +07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Acceloka.API.Features.Tickets.Queries.AvailableTicketsResponse, Acceloka.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-02-28 11:48:00.050 +07:00 [INF] Executed action Acceloka.API.Controllers.TicketsController.GetAvailableTicket (Acceloka.API) in 3.1042ms
+2026-02-28 11:48:00.050 +07:00 [INF] Executed endpoint 'Acceloka.API.Controllers.TicketsController.GetAvailableTicket (Acceloka.API)'
+2026-02-28 11:48:00.050 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5209/api/v1/get-available-ticket?PageNumber=1&PageSize=10 - 200 null application/json; charset=utf-8 4.3136ms
+2026-02-28 11:48:45.959 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5209/api/v1/get-available-ticket?PageNumber=1&PageSize=10&CategoryName=Bioskop - null null
+2026-02-28 11:48:45.960 +07:00 [INF] CORS policy execution successful.
+2026-02-28 11:48:45.960 +07:00 [INF] CORS policy execution successful.
+2026-02-28 11:48:45.960 +07:00 [INF] Executing endpoint 'Acceloka.API.Controllers.TicketsController.GetAvailableTicket (Acceloka.API)'
+2026-02-28 11:48:45.960 +07:00 [INF] Route matched with {action = "GetAvailableTicket", controller = "Tickets"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAvailableTicket(Acceloka.API.Features.Tickets.Queries.AvailableTicketsQuery) on controller Acceloka.API.Controllers.TicketsController (Acceloka.API).
+2026-02-28 11:48:45.971 +07:00 [INF] Executed DbCommand (10ms) [Parameters=[@request_CategoryName_contains='?' (Size = 4000), @p='?' (DbType = Int32), @p2='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[CategoryName], [t].[TicketCode], [t].[TicketName], [t].[EventDate], [t].[Price], [t].[Quota] AS [RemainingQuota]
+FROM [Tickets] AS [t]
+WHERE [t].[IsActive] = CAST(1 AS bit) AND [t].[Quota] > 0 AND [t].[CategoryName] LIKE @request_CategoryName_contains ESCAPE N'\'
+ORDER BY [t].[TicketCode]
+OFFSET @p ROWS FETCH NEXT @p2 ROWS ONLY
+2026-02-28 11:48:45.972 +07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Acceloka.API.Features.Tickets.Queries.AvailableTicketsResponse, Acceloka.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-02-28 11:48:45.972 +07:00 [INF] Executed action Acceloka.API.Controllers.TicketsController.GetAvailableTicket (Acceloka.API) in 11.9924ms
+2026-02-28 11:48:45.972 +07:00 [INF] Executed endpoint 'Acceloka.API.Controllers.TicketsController.GetAvailableTicket (Acceloka.API)'
+2026-02-28 11:48:45.972 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5209/api/v1/get-available-ticket?PageNumber=1&PageSize=10&CategoryName=Bioskop - 200 null application/json; charset=utf-8 12.4087ms
+2026-02-28 11:55:22.566 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5209/api/v1/get-available-ticket?PageNumber=1&PageSize=10 - null null
+2026-02-28 11:55:22.566 +07:00 [INF] CORS policy execution successful.
+2026-02-28 11:55:22.566 +07:00 [INF] CORS policy execution successful.
+2026-02-28 11:55:22.566 +07:00 [INF] Executing endpoint 'Acceloka.API.Controllers.TicketsController.GetAvailableTicket (Acceloka.API)'
+2026-02-28 11:55:22.566 +07:00 [INF] Route matched with {action = "GetAvailableTicket", controller = "Tickets"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAvailableTicket(Acceloka.API.Features.Tickets.Queries.AvailableTicketsQuery) on controller Acceloka.API.Controllers.TicketsController (Acceloka.API).
+2026-02-28 11:55:22.661 +07:00 [INF] Executed DbCommand (16ms) [Parameters=[@p='?' (DbType = Int32), @p1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[CategoryName], [t].[TicketCode], [t].[TicketName], [t].[EventDate], [t].[Price], [t].[Quota] AS [RemainingQuota]
+FROM [Tickets] AS [t]
+WHERE [t].[IsActive] = CAST(1 AS bit) AND [t].[Quota] > 0
+ORDER BY [t].[TicketCode]
+OFFSET @p ROWS FETCH NEXT @p1 ROWS ONLY
+2026-02-28 11:55:22.662 +07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Acceloka.API.Features.Tickets.Queries.AvailableTicketsResponse, Acceloka.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-02-28 11:55:22.663 +07:00 [INF] Executed action Acceloka.API.Controllers.TicketsController.GetAvailableTicket (Acceloka.API) in 96.475ms
+2026-02-28 11:55:22.663 +07:00 [INF] Executed endpoint 'Acceloka.API.Controllers.TicketsController.GetAvailableTicket (Acceloka.API)'
+2026-02-28 11:55:22.663 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5209/api/v1/get-available-ticket?PageNumber=1&PageSize=10 - 200 null application/json; charset=utf-8 97.2566ms
+2026-02-28 12:00:18.007 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5209/api/v1/get-available-ticket?PageNumber=1&PageSize=10 - null null
+2026-02-28 12:00:18.044 +07:00 [INF] CORS policy execution successful.
+2026-02-28 12:00:18.044 +07:00 [INF] CORS policy execution successful.
+2026-02-28 12:00:18.045 +07:00 [INF] Executing endpoint 'Acceloka.API.Controllers.TicketsController.GetAvailableTicket (Acceloka.API)'
+2026-02-28 12:00:18.045 +07:00 [INF] Route matched with {action = "GetAvailableTicket", controller = "Tickets"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAvailableTicket(Acceloka.API.Features.Tickets.Queries.AvailableTicketsQuery) on controller Acceloka.API.Controllers.TicketsController (Acceloka.API).
+2026-02-28 12:00:18.060 +07:00 [INF] Executed DbCommand (13ms) [Parameters=[@p='?' (DbType = Int32), @p1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[CategoryName], [t].[TicketCode], [t].[TicketName], [t].[EventDate], [t].[Price], [t].[Quota] AS [RemainingQuota]
+FROM [Tickets] AS [t]
+WHERE [t].[IsActive] = CAST(1 AS bit) AND [t].[Quota] > 0
+ORDER BY [t].[TicketCode]
+OFFSET @p ROWS FETCH NEXT @p1 ROWS ONLY
+2026-02-28 12:00:18.060 +07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Acceloka.API.Features.Tickets.Queries.AvailableTicketsResponse, Acceloka.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-02-28 12:00:18.060 +07:00 [INF] Executed action Acceloka.API.Controllers.TicketsController.GetAvailableTicket (Acceloka.API) in 15.3935ms
+2026-02-28 12:00:18.060 +07:00 [INF] Executed endpoint 'Acceloka.API.Controllers.TicketsController.GetAvailableTicket (Acceloka.API)'
+2026-02-28 12:00:18.060 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5209/api/v1/get-available-ticket?PageNumber=1&PageSize=10 - 200 null application/json; charset=utf-8 53.2559ms
+2026-02-28 12:00:18.063 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5209/api/v1/get-available-ticket?PageNumber=1&PageSize=10 - null null
+2026-02-28 12:00:18.063 +07:00 [INF] CORS policy execution successful.
+2026-02-28 12:00:18.063 +07:00 [INF] CORS policy execution successful.
+2026-02-28 12:00:18.063 +07:00 [INF] Executing endpoint 'Acceloka.API.Controllers.TicketsController.GetAvailableTicket (Acceloka.API)'
+2026-02-28 12:00:18.063 +07:00 [INF] Route matched with {action = "GetAvailableTicket", controller = "Tickets"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAvailableTicket(Acceloka.API.Features.Tickets.Queries.AvailableTicketsQuery) on controller Acceloka.API.Controllers.TicketsController (Acceloka.API).
+2026-02-28 12:00:18.065 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[@p='?' (DbType = Int32), @p1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[CategoryName], [t].[TicketCode], [t].[TicketName], [t].[EventDate], [t].[Price], [t].[Quota] AS [RemainingQuota]
+FROM [Tickets] AS [t]
+WHERE [t].[IsActive] = CAST(1 AS bit) AND [t].[Quota] > 0
+ORDER BY [t].[TicketCode]
+OFFSET @p ROWS FETCH NEXT @p1 ROWS ONLY
+2026-02-28 12:00:18.065 +07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Acceloka.API.Features.Tickets.Queries.AvailableTicketsResponse, Acceloka.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-02-28 12:00:18.066 +07:00 [INF] Executed action Acceloka.API.Controllers.TicketsController.GetAvailableTicket (Acceloka.API) in 2.7292ms
+2026-02-28 12:00:18.066 +07:00 [INF] Executed endpoint 'Acceloka.API.Controllers.TicketsController.GetAvailableTicket (Acceloka.API)'
+2026-02-28 12:00:18.066 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5209/api/v1/get-available-ticket?PageNumber=1&PageSize=10 - 200 null application/json; charset=utf-8 3.1664ms
